@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205300574586",
+    "project_id": "asn-center1111",
+    "storage_bucket": "asn-center1111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205300574586:android:d585745e1a940bc1784ec3",
+        "android_client_info": {
+          "package_name": "com.example.asn_center"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp_MUYaCYNfQQzP4pSwpTYb3OBsfNpre8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
