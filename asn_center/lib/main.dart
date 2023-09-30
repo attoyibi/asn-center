@@ -1,14 +1,16 @@
+import 'package:asn_center/about_us.dart';
+import 'package:asn_center/component/hasil_pengerjaan.dart';
 import 'package:asn_center/latihan.dart';
 import 'package:asn_center/try_out.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'firebase_options.dart';
+// import 'package:firebase_core/firebase_core.dart';
+// import 'firebase_options.dart';
 // import 'latihan.dart';
 
 //referensi : https://drive.google.com/drive/u/0/folders/1uJHI-DCXXi7ZFM1ziSdQWVF70q3uzRoT
 // Future<void> main() async {
-void main() async {
+void main() {
   // await Firebase.initializeApp(
   //   options: DefaultFirebaseOptions.currentPlatform,
   // );
@@ -63,181 +65,215 @@ class _HomePageState extends State<HomePage> {
           onSurface: onSurfaceColor,
         ),
       ),
-      home: Builder(builder: (context) {
-        return Scaffold(
-          body: SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                Container(
-                  // height: 150.0, // Set the height to 40 pixels
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        primaryColor,
-                        primaryColor,
-                        Colors.transparent,
-                        Colors.transparent,
-                      ],
-                      stops: [0.0, 0.8, 0.5, 1.0],
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                    ),
-                  ),
-                  child: Container(
-                    margin: EdgeInsets.only(left: 20, right: 20),
-                    child: Column(
-                      children: [
-                        HeaderText(onPrimary: onPrimary),
-                        HomeCard(),
-                      ],
-                    ),
+      initialRoute: '/',
+      routes: {
+        '/': (_) =>
+            MainScreen(primaryColor: primaryColor, onPrimary: onPrimary),
+        // '/': (_) => HasilPengerjaan(),
+        '/home': (_) =>
+            MainScreen(primaryColor: primaryColor, onPrimary: onPrimary),
+        '/aboutus': (_) => AboutUs(),
+      },
+      // home: MainScreen(primaryColor: primaryColor, onPrimary: onPrimary),
+    );
+  }
+}
+
+class MainScreen extends StatelessWidget {
+  const MainScreen({
+    super.key,
+    required this.primaryColor,
+    required this.onPrimary,
+  });
+
+  final MaterialColor primaryColor;
+  final Color onPrimary;
+
+  @override
+  Widget build(BuildContext context) {
+    return Builder(builder: (context) {
+      return Scaffold(
+        body: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Container(
+                // height: 150.0, // Set the height to 40 pixels
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [
+                      primaryColor,
+                      primaryColor,
+                      Colors.transparent,
+                      Colors.transparent,
+                    ],
+                    stops: [0.0, 0.8, 0.5, 1.0],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
                   ),
                 ),
-                Container(
+                child: Container(
+                  margin: EdgeInsets.only(left: 20, right: 20),
                   child: Column(
                     children: [
-                      SizedBox(height: 20),
-                      Align(
-                        alignment: Alignment
-                            .centerLeft, // Mengatur teks ke awal atau sebelah kiri container
-                        child: Container(
-                            child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Container(
-                                margin: EdgeInsets.only(left: 20, right: 20),
-                                child: Text('Berita Terbaru')),
-                            SizedBox(height: 10),
-                            MyCarousel(),
-                          ],
-                        )),
-                      ),
+                      HeaderText(onPrimary: onPrimary),
+                      HomeCard(),
                     ],
                   ),
                 ),
-                Column(
+              ),
+              Container(
+                child: Column(
                   children: [
-                    InkWell(
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const Latihan(),
-                          ),
-                        );
-                        print('Widget latihan ditekan');
-                      },
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
+                    SizedBox(height: 20),
+                    Align(
+                      alignment: Alignment
+                          .centerLeft, // Mengatur teks ke awal atau sebelah kiri container
+                      child: Container(
+                          child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Image.asset(
-                            'assets/icons/reading.png',
-                            width: 100, // Lebar gambar 100px
-                            height: 100, // Tinggi gambar 100px
-                          ),
-                          Text(
-                            'Tes Wawasan Kebangsaan (TWK)',
-                            style: TextStyle(
-                              fontWeight:
-                                  FontWeight.bold, // Atur weight menjadi bold
-                            ),
-                          ),
+                          Container(
+                              margin: EdgeInsets.only(left: 20, right: 20),
+                              child: Text('Berita Terbaru')),
+                          SizedBox(height: 10),
+                          MyCarousel(),
                         ],
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const Latihan(),
-                          ),
-                        );
-                        print('Widget latihan ditekan');
-                      },
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/icons/reading.png',
-                            width: 100, // Lebar gambar 100px
-                            height: 100, // Tinggi gambar 100px
-                          ),
-                          Text(
-                            'Tes Intelegensi Umum (TIU)',
-                            style: TextStyle(
-                              fontWeight:
-                                  FontWeight.bold, // Atur weight menjadi bold
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const Latihan(),
-                          ),
-                        );
-                        print('Widget latihan ditekan');
-                      },
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/icons/reading.png',
-                            width: 100, // Lebar gambar 100px
-                            height: 100, // Tinggi gambar 100px
-                          ),
-                          Text(
-                            'Tes Karakteristik Pribadi',
-                            style: TextStyle(
-                              fontWeight:
-                                  FontWeight.bold, // Atur weight menjadi bold
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    InkWell(
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const TyrOut(),
-                          ),
-                        );
-                        print('Widget Try Out ditekan');
-                      },
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/icons/archives.png',
-                            width: 100, // Lebar gambar 50px
-                            height: 100, // Tinggi gambar 50px
-                          ),
-                          Text(
-                            'Try Out',
-                            style: TextStyle(
-                              fontWeight:
-                                  FontWeight.bold, // Atur weight menjadi bold
-                            ),
-                          ),
-                        ],
-                      ),
+                      )),
                     ),
                   ],
                 ),
-              ],
-            ),
+              ),
+              Column(
+                children: [
+                  // InkWell(
+                  //   onTap: () {
+                  //     Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //         builder: (context) => const Latihan(
+                  //             app: 'Tes Wawasan Kebangsaan (TWK)'),
+                  //       ),
+                  //     );
+                  //     print('Widget latihan ditekan');
+                  //   },
+                  //   child: Column(
+                  //     crossAxisAlignment: CrossAxisAlignment.center,
+                  //     children: [
+                  //       Image.asset(
+                  //         'assets/icons/reading.png',
+                  //         width: 100, // Lebar gambar 100px
+                  //         height: 100, // Tinggi gambar 100px
+                  //       ),
+                  //       Text(
+                  //         'Tes Wawasan Kebangsaan (TWK)',
+                  //         style: TextStyle(
+                  //           fontWeight:
+                  //               FontWeight.bold, // Atur weight menjadi bold
+                  //         ),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
+                  Material(
+                    elevation: 2,
+                    child: Container(
+                      margin: EdgeInsets.all(10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Image.asset(
+                            'assets/icons/reading.png',
+                            width: 100, // Lebar gambar 100px
+                            height: 100, // Tinggi gambar 100px
+                          ),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const Latihan(
+                                      app: 'Tes Intelegensi Umum (TIU)'),
+                                ),
+                              );
+                            },
+                            child: Text(
+                              'Tes Intelegensi Umum (TIU)',
+                              style: TextStyle(
+                                fontWeight:
+                                    FontWeight.bold, // Atur weight menjadi bold
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+
+                  // InkWell(
+                  //   onTap: () {
+                  //     Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //         builder: (context) =>
+                  //             const Latihan(app: 'Tes Karakteristik Pribadi'),
+                  //       ),
+                  //     );
+                  //     print('Widget latihan ditekan');
+                  //   },
+                  //   child: Column(
+                  //     crossAxisAlignment: CrossAxisAlignment.center,
+                  //     children: [
+                  //       Image.asset(
+                  //         'assets/icons/reading.png',
+                  //         width: 100, // Lebar gambar 100px
+                  //         height: 100, // Tinggi gambar 100px
+                  //       ),
+                  //       Text(
+                  //         'Tes Karakteristik Pribadi',
+                  //         style: TextStyle(
+                  //           fontWeight:
+                  //               FontWeight.bold, // Atur weight menjadi bold
+                  //         ),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
+                  // InkWell(
+                  //   onTap: () {
+                  //     Navigator.push(
+                  //       context,
+                  //       MaterialPageRoute(
+                  //         builder: (context) => const TyrOut(),
+                  //       ),
+                  //     );
+                  //     print('Widget Try Out ditekan');
+                  //   },
+                  //   child: Column(
+                  //     crossAxisAlignment: CrossAxisAlignment.center,
+                  //     children: [
+                  //       Image.asset(
+                  //         'assets/icons/archives.png',
+                  //         width: 100, // Lebar gambar 50px
+                  //         height: 100, // Tinggi gambar 50px
+                  //       ),
+                  //       Text(
+                  //         'Try Out',
+                  //         style: TextStyle(
+                  //           fontWeight:
+                  //               FontWeight.bold, // Atur weight menjadi bold
+                  //         ),
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
+                ],
+              ),
+            ],
           ),
-        );
-      }),
-    );
+        ),
+      );
+    });
   }
 }
 

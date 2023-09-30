@@ -1,3 +1,5 @@
+import 'package:asn_center/component/list_latihan_soal.dart';
+import 'package:asn_center/component/pilgan.dart';
 import 'package:flutter/material.dart';
 
 class GridList extends StatelessWidget {
@@ -22,39 +24,54 @@ class GridList extends StatelessWidget {
                   //     EdgeInsets.only(top: 10, left: 10, right: 10, bottom: 10),
                   // padding: EdgeInsets.only(bottom: 15),
                   width: 600,
+
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       color: const Color.fromRGBO(238, 238, 238, 1)),
                   child: Column(
-                    // mainAxisAlignment: MainAxisAlignment.end,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Image.asset(
                         'assets/icons/garuda.png',
-                        width: 100, // Lebar gambar 100px
-                        height: 100,
+                        width: 75, // Lebar gambar 100px
+                        height: 75,
                       ),
                       Container(
-                        margin: EdgeInsets.only(right: 10, left: 10),
+                        margin: EdgeInsets.only(right: 2, left: 2),
                         child: Text(
                           '${jsonData[index]['nama_materi']}',
-                          style: TextStyle(fontSize: 16),
-                          maxLines: 1,
-                        ),
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(right: 10, left: 10),
-                        child: Text(
-                          'Deskripsi dari materi 1 berisikan beberapa hal yang harus kalian tahu dalam 10 kata',
-                          style: TextStyle(fontSize: 10),
-                          maxLines: 2,
+                          style: TextStyle(fontSize: 12),
+                          maxLines: 3,
                           textAlign: TextAlign.center,
                         ),
+                      ),
+                      SizedBox(
+                        height: 5,
                       ),
                       ElevatedButton(
                         onPressed: () {
                           // Action to perform when the button is pressed
+                          // Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(
+                          //     builder: (context) => Pilgan(
+                          //         namaMateri:
+                          //             '${jsonData[index]['nama_materi']}',
+                          //         namaFile: '${jsonData[index]['nama_file']}'),
+                          //   ),
+                          // );
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => ListLatihanSoal(
+                                  namaMateri:
+                                      '${jsonData[index]['nama_materi']}',
+                                  namaFile: '${jsonData[index]['nama_file']}'),
+                            ),
+                          );
+                          print('pelajari');
                         },
-                        child: Text('Pelajari'),
+                        child: Text('Latihan Soal'),
                       ),
                     ],
                   ),

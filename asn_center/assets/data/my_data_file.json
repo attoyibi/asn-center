@@ -1,21 +1,22 @@
 [
-  { "id": 1, "nama_materi": "Materi materi 1" },
-  { "id": 2, "nama_materi": "Materi materi 2" },
-  { "id": 3, "nama_materi": "Materi materi 3" },
-  { "id": 4, "nama_materi": "Materi materi 4" },
-  { "id": 5, "nama_materi": "Materi materi 5" },
-  { "id": 6, "nama_materi": "Materi materi 6" },
-  { "id": 7, "nama_materi": "Materi materi 7" },
-  { "id": 8, "nama_materi": "Materi materi 8" },
-  { "id": 9, "nama_materi": "Materi materi 9" },
-  { "id": 10, "nama_materi": "Materi materi 10" },
-  { "id": 11, "nama_materi": "Materi materi 11" },
-  { "id": 12, "nama_materi": "Materi materi 12" },
-  { "id": 13, "nama_materi": "Materi materi 13" },
-  { "id": 14, "nama_materi": "Materi materi 14" },
-  { "id": 15, "nama_materi": "Materi materi 15" },
-  { "id": 16, "nama_materi": "Materi materi 16" },
-  { "id": 17, "nama_materi": "Materi materi 17" },
-  { "id": 18, "nama_materi": "Materi materi 18" },
-  { "id": 19, "nama_materi": "Materi materi 19" }
+  {
+    "id": 1,
+    "nama_materi": "Kemampuan Verbal: Analogi (perbandingan 2 konsep)",
+    "nama_file": "bank_soal_analogi.json"
+  },
+  {
+    "id": 2,
+    "nama_materi": "Kemampuan Verbal: Silogisme (menarik kesimpulan dari 2 pernyataan)",
+    "nama_file": "bank_soal_silogisme.json"
+  },
+  {
+    "id": 3,
+    "nama_materi": "Kemampuan Verbal: Analitis (menganalisis informasi dan menarik kesimpulan)",
+    "nama_file": "bank_soal_verbal_analitis.json"
+  },
+  {
+    "id": 7,
+    "nama_materi": "Kemampuan Figural: Seri (mencari pola dan urutan)",
+    "nama_file": "bank_soal_figural_seri.json"
+  }
 ]

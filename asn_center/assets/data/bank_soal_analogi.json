@@ -1,0 +1,516 @@
+[
+  {
+    "id": 1,
+    "soal": "Bunga : Mekar = Pohon : ...",
+    "pilihan": ["Tumbuh", "Berdaun", "Hijau", "Ranting", "Gugur"],
+    "jawaban": "Tumbuh",
+    "pembahasan": "Hubungan kata bunga dan mekar adalah bunga mekar saat berkembang. Hubungan yang sama dengan pasangan kata tersebut adalah pohon tumbuh saat berkembang."
+  },
+  {
+    "id": 2,
+    "soal": "Rumah : Bangunan = Mobil : ...",
+    "pilihan": ["Roda", "Jalan", "Transportasi", "Rantai", "Mesin"],
+    "jawaban": "Mesin",
+    "pembahasan": "Rumah adalah salah satu jenis bangunan, dan mobil adalah salah satu jenis kendaraan yang memiliki mesin."
+  },
+  {
+    "id": 3,
+    "soal": "Penulis : Buku = Pelukis : ...",
+    "pilihan": ["Pensil", "Lukisan", "Kanvas", "Kuas", "Museum"],
+    "jawaban": "Lukisan",
+    "pembahasan": "Seorang penulis menciptakan buku, sedangkan seorang pelukis menciptakan lukisan."
+  },
+  {
+    "id": 4,
+    "soal": "Matahari : Terang = Bulan : ...",
+    "pilihan": ["Gelap", "Biru", "Dingin", "Dingin", "Bercahaya"],
+    "jawaban": "Gelap",
+    "pembahasan": "Matahari adalah sumber terang, sementara bulan sering kali terlihat dalam kegelapan malam."
+  },
+  {
+    "id": 5,
+    "soal": "Sekolah : Pendidikan = Rumah Sakit : ...",
+    "pilihan": ["Penyembuhan", "Perawatan", "Penderitaan", "Periksa", "Obat"],
+    "jawaban": "Perawatan",
+    "pembahasan": "Sekolah adalah tempat untuk pendidikan, sedangkan rumah sakit adalah tempat untuk perawatan medis."
+  },
+  {
+    "id": 6,
+    "soal": "Air : Basah = Api : ...",
+    "pilihan": ["Panas", "Merah", "Terbakar", "Gas", "Dingin"],
+    "jawaban": "Terbakar",
+    "pembahasan": "Hubungan antara air dan basah adalah air membuat sesuatu menjadi basah. Hubungan yang sama dengan pasangan kata tersebut adalah api dapat membuat sesuatu menjadi terbakar."
+  },
+  {
+    "id": 7,
+    "soal": "Dokter : Pasien = Guru : ...",
+    "pilihan": ["Siswa", "Buku", "Pengetahuan", "Sekolah", "Belajar"],
+    "jawaban": "Siswa",
+    "pembahasan": "Seorang dokter merawat pasien, sama seperti seorang guru mengajar siswanya."
+  },
+  {
+    "id": 8,
+    "soal": "Kapal : Laut = Pesawat : ...",
+    "pilihan": ["Langit", "Udara", "Landasan", "Penerbangan", "Terbang"],
+    "jawaban": "Udara",
+    "pembahasan": "Kapal berlayar di laut, sementara pesawat terbang di udara."
+  },
+  {
+    "id": 9,
+    "soal": "Hutan : Pohon = Laut : ...",
+    "pilihan": ["Ikan", "Pasir", "Kapal", "Pantai", "Terumbu karang"],
+    "jawaban": "Ikan",
+    "pembahasan": "Hutan adalah tempat di mana pohon-pohon tumbuh, sementara laut adalah tempat di mana ikan hidup."
+  },
+  {
+    "id": 10,
+    "soal": "Manusia : Jalan Kaki = Ikan : ...",
+    "pilihan": ["Terbang", "Renang", "Terjun", "Bernyanyi", "Merangkak"],
+    "jawaban": "Renang",
+    "pembahasan": "Manusia berjalan kaki di darat, sementara ikan berenang di dalam air."
+  },
+  {
+    "id": 11,
+    "soal": "Penyanyi : Musik = Pelukis : ...",
+    "pilihan": ["Cat", "Palet", "Kanvas", "Pensil", "Gambar"],
+    "jawaban": "Gambar",
+    "pembahasan": "Seorang penyanyi berhubungan dengan musik, sama seperti seorang pelukis berhubungan dengan gambar."
+  },
+  {
+    "id": 12,
+    "soal": "Perpustakaan : Buku = Restoran : ...",
+    "pilihan": ["Makanan", "Pelanggan", "Pelayan", "Dapur", "Masakan"],
+    "jawaban": "Masakan",
+    "pembahasan": "Perpustakaan adalah tempat di mana ada banyak buku, sementara restoran adalah tempat di mana ada banyak masakan."
+  },
+  {
+    "id": 13,
+    "soal": "Pagi : Malam = Terang : ...",
+    "pilihan": ["Gelap", "Hangat", "Dingin", "Siang", "Senja"],
+    "jawaban": "Gelap",
+    "pembahasan": "Pagi adalah waktu yang berlawanan dengan malam, dan terang adalah kebalikan dari gelap."
+  },
+  {
+    "id": 14,
+    "soal": "Dokumen : Teks = Gambar : ...",
+    "pilihan": ["Sketsa", "Warna", "Kanvas", "Pensil", "Kamera"],
+    "jawaban": "Sketsa",
+    "pembahasan": "Dokumen seringkali terkait dengan teks atau tulisan, sementara gambar seringkali terkait dengan sketsa."
+  },
+  {
+    "id": 15,
+    "soal": "Kaca : Pecah = Kayu : ...",
+    "pilihan": [
+      "Memuai",
+      "Terbakar",
+      "Mengapung",
+      "Mengeluarkan suara",
+      "Hilang"
+    ],
+    "jawaban": "Terbakar",
+    "pembahasan": "Kaca dapat pecah, sementara kayu dapat terbakar."
+  },
+  {
+    "id": 16,
+    "soal": "Dentist : Gigi = Montir : ...",
+    "pilihan": ["Mobil", "Ban", "Roda", "Baut", "Oli"],
+    "jawaban": "Mobil",
+    "pembahasan": "Seorang dentist merawat gigi, sedangkan seorang montir merawat mobil."
+  },
+  {
+    "id": 17,
+    "soal": "Buku : Halaman = Film : ...",
+    "pilihan": ["Adegan", "Gambar", "Aktor", "Sutradara", "Kamera"],
+    "jawaban": "Adegan",
+    "pembahasan": "Buku terdiri dari halaman, sementara film terdiri dari adegan."
+  },
+  {
+    "id": 18,
+    "soal": "Bunga : Kuncup = Burung : ...",
+    "pilihan": ["Sayap", "Terbang", "Makan", "Tirai", "Kandang"],
+    "jawaban": "Sayap",
+    "pembahasan": "Kuncup adalah bentuk awal dari bunga, sama seperti sayap adalah bagian dari burung yang digunakan untuk terbang."
+  },
+  {
+    "id": 19,
+    "soal": "Pulau : Laut = Gunung : ...",
+    "pilihan": ["Tinggi", "Puncak", "Bukit", "Tanah", "Gua"],
+    "jawaban": "Tanah",
+    "pembahasan": "Pulau terletak di laut, sementara gunung berdiri di atas tanah."
+  },
+  {
+    "id": 20,
+    "soal": "Kendaraan : Roda = Pesawat : ...",
+    "pilihan": [
+      "Baling-baling",
+      "Sayap",
+      "Penerbangan",
+      "Penumpang",
+      "Bandara"
+    ],
+    "jawaban": "Sayap",
+    "pembahasan": "Kendaraan umumnya memiliki roda, sedangkan pesawat memiliki sayap sebagai salah satu bagian utamanya."
+  },
+  {
+    "id": 21,
+    "soal": "Dokter : Kesehatan = Guru : ...",
+    "pilihan": ["Pengetahuan", "Pendidikan", "Siswa", "Pelajaran", "Buku"],
+    "jawaban": "Pendidikan",
+    "pembahasan": "Dokter berhubungan dengan kesehatan, sementara guru berhubungan dengan pendidikan."
+  },
+  {
+    "id": 22,
+    "soal": "Kamera : Gambar = Pianis : ...",
+    "pilihan": ["Not", "Piano", "Musik", "Konser", "Pentas"],
+    "jawaban": "Musik",
+    "pembahasan": "Kamera digunakan untuk mengambil gambar, sama seperti seorang pianis menghasilkan musik."
+  },
+  {
+    "id": 23,
+    "soal": "Buku : Penulis = Patung : ...",
+    "pilihan": ["Kerajinan", "Marmer", "Patungis", "Galeri", "Besar"],
+    "jawaban": "Patungis",
+    "pembahasan": "Seorang penulis menciptakan buku, sedangkan seorang patungis menciptakan patung."
+  },
+  {
+    "id": 24,
+    "soal": "Air : Cair = Es : ...",
+    "pilihan": ["Beku", "Padat", "Cair", "Dingin", "Mencair"],
+    "jawaban": "Padat",
+    "pembahasan": "Air dalam bentuk cair, sedangkan es adalah air yang beku atau dalam bentuk padat."
+  },
+  {
+    "id": 25,
+    "soal": "Tumbuhan : Akar = Manusia : ...",
+    "pilihan": ["Kaki", "Kepala", "Mata", "Lengan", "Jari"],
+    "jawaban": "Lengan",
+    "pembahasan": "Tumbuhan memiliki akar yang mirip dengan manusia memiliki lengan."
+  },
+  {
+    "id": 26,
+    "soal": "Motor : Roda = Pesawat : ...",
+    "pilihan": ["Sayap", "Penerbangan", "Pilot", "Mesin", "Turbina"],
+    "jawaban": "Mesin",
+    "pembahasan": "Motor digerakkan oleh roda, sedangkan pesawat digerakkan oleh mesin."
+  },
+  {
+    "id": 27,
+    "soal": "Lemari : Pakaian = Lem : ...",
+    "pilihan": ["Tutup", "Perekat", "Lapis", "Kertas", "Box"],
+    "jawaban": "Perekat",
+    "pembahasan": "Lemari digunakan untuk menyimpan pakaian, sedangkan lem digunakan sebagai perekat."
+  },
+  {
+    "id": 28,
+    "soal": "Ikan : Air = Burung : ...",
+    "pilihan": ["Angin", "Sarang", "Pohon", "Terbang", "Makanan"],
+    "jawaban": "Terbang",
+    "pembahasan": "Ikan hidup di dalam air, sementara burung dapat terbang di udara."
+  },
+  {
+    "id": 29,
+    "soal": "Mata : Pandang = Telinga : ...",
+    "pilihan": ["Dengar", "Teriak", "Bicara", "Mendengar", "Diam"],
+    "jawaban": "Dengar",
+    "pembahasan": "Mata digunakan untuk melihat atau pandang, sedangkan telinga digunakan untuk mendengar."
+  },
+  {
+    "id": 30,
+    "soal": "Batu : Kuat = Kertas : ...",
+    "pilihan": ["Lemah", "Tipis", "Tebal", "Hancur", "Lusuh"],
+    "jawaban": "Tipis",
+    "pembahasan": "Batu biasanya dianggap kuat, sedangkan kertas sering kali dianggap tipis."
+  },
+  {
+    "id": 31,
+    "soal": "Pelaut : Lautan = Penerbang : ...",
+    "pilihan": ["Bandara", "Langit", "Pesawat", "Tiket", "Awak"],
+    "jawaban": "Langit",
+    "pembahasan": "Pelaut berlayar di lautan, sedangkan penerbang terbang di langit."
+  },
+  {
+    "id": 32,
+    "soal": "Kaca : Pecah = Kayu : ...",
+    "pilihan": ["Patah", "Mengapung", "Mengeluarkan suara", "Hilang"],
+    "jawaban": "Terbakar",
+    "pembahasan": "Kaca dapat pecah, sementara kayu dapat terbakar."
+  },
+  {
+    "id": 33,
+    "soal": "Dentist : Gigi = Montir : ...",
+    "pilihan": ["Mobil", "Ban", "Roda", "Baut", "Oli"],
+    "jawaban": "Mobil",
+    "pembahasan": "Seorang dentist merawat gigi, sedangkan seorang montir merawat mobil."
+  },
+  {
+    "id": 34,
+    "soal": "Buku : Halaman = Film : ...",
+    "pilihan": ["Adegan", "Gambar", "Aktor", "Sutradara", "Kamera"],
+    "jawaban": "Adegan",
+    "pembahasan": "Buku terdiri dari halaman, sementara film terdiri dari adegan."
+  },
+  {
+    "id": 35,
+    "soal": "Bunga : Kuncup = Burung : ...",
+    "pilihan": ["Sayap", "Terbang", "Makan", "Tirai", "Kandang"],
+    "jawaban": "Sayap",
+    "pembahasan": "Kuncup adalah bentuk awal dari bunga, sama seperti sayap adalah bagian dari burung yang digunakan untuk terbang."
+  },
+  {
+    "id": 36,
+    "soal": "Pulau : Laut = Gunung : ...",
+    "pilihan": ["Tinggi", "Puncak", "Bukit", "Tanah", "Gua"],
+    "jawaban": "Tanah",
+    "pembahasan": "Pulau terletak di laut, sementara gunung berdiri di atas tanah."
+  },
+  {
+    "id": 37,
+    "soal": "Kendaraan : Roda = Pesawat : ...",
+    "pilihan": [
+      "Baling-baling",
+      "Sayap",
+      "Penerbangan",
+      "Penumpang",
+      "Bandara"
+    ],
+    "jawaban": "Sayap",
+    "pembahasan": "Kendaraan umumnya memiliki roda, sedangkan pesawat memiliki sayap sebagai salah satu bagian utamanya."
+  },
+  {
+    "id": 38,
+    "soal": "Dokter : Kesehatan = Guru : ...",
+    "pilihan": ["Pengetahuan", "Pendidikan", "Siswa", "Pelajaran", "Buku"],
+    "jawaban": "Pendidikan",
+    "pembahasan": "Dokter berhubungan dengan kesehatan, sementara guru berhubungan dengan pendidikan."
+  },
+  {
+    "id": 39,
+    "soal": "Kamera : Gambar = Pianis : ...",
+    "pilihan": ["Not", "Piano", "Musik", "Konser", "Pentas"],
+    "jawaban": "Musik",
+    "pembahasan": "Kamera digunakan untuk mengambil gambar, sama seperti seorang pianis menghasilkan musik."
+  },
+  {
+    "id": 40,
+    "soal": "Buku : Penulis = Patung : ...",
+    "pilihan": ["Kerajinan", "Marmer", "Patungis", "Galeri", "Besar"],
+    "jawaban": "Patungis",
+    "pembahasan": "Seorang penulis menciptakan buku, sedangkan seorang patungis menciptakan patung."
+  },
+  {
+    "id": 41,
+    "soal": "Pohon : Daun = Manusia : ...",
+    "pilihan": ["Tangan", "Kepala", "Mata", "Kaki", "Rambut"],
+    "jawaban": "Rambut",
+    "pembahasan": "Pohon memiliki daun seperti manusia memiliki rambut."
+  },
+  {
+    "id": 42,
+    "soal": "Kapal : Laut = Mobil : ...",
+    "pilihan": ["Jalan", "Ban", "Bensin", "Mesin", "Pompa Bensin"],
+    "jawaban": "Jalan",
+    "pembahasan": "Kapal berlayar di laut, sementara mobil berjalan di jalan."
+  },
+  {
+    "id": 43,
+    "soal": "Sapi : Daging = Ayam : ...",
+    "pilihan": ["Bulu", "Kulit", "Tulang", "Telur", "Kaki"],
+    "jawaban": "Telur",
+    "pembahasan": "Daging sapi diambil dari sapi, sedangkan telur ayam diambil dari ayam."
+  },
+  {
+    "id": 44,
+    "soal": "Bola : Bulat = Kubus : ...",
+    "pilihan": ["Segi Enam", "Empat Sisi", "Kotak", "Tajam", "Siku"],
+    "jawaban": "Empat Sisi",
+    "pembahasan": "Bola memiliki bentuk bulat, sedangkan kubus memiliki empat sisi."
+  },
+  {
+    "id": 45,
+    "soal": "Pisau : Memotong = Gun : ...",
+    "pilihan": ["Menembak", "Menulis", "Meledak", "Menangis", "Membaca"],
+    "jawaban": "Menembak",
+    "pembahasan": "Pisau digunakan untuk memotong, sedangkan senjata api (gun) digunakan untuk menembak."
+  },
+  {
+    "id": 46,
+    "soal": "Bintang : Langit = Pasir : ...",
+    "pilihan": ["Desert", "Laut", "Pantai", "Timur", "Tepi"],
+    "jawaban": "Desert",
+    "pembahasan": "Bintang terlihat di langit, sedangkan pasir banyak terdapat di padang pasir (desert)."
+  },
+  {
+    "id": 47,
+    "soal": "Dokter : Resep = Guru : ...",
+    "pilihan": ["Pelajaran", "Penghapus", "Pulpen", "Kursi", "Buku"],
+    "jawaban": "Pelajaran",
+    "pembahasan": "Seorang dokter membuat resep untuk pasien, sementara seorang guru mengajar pelajaran."
+  },
+  {
+    "id": 48,
+    "soal": "Buku : Kata = Musik : ...",
+    "pilihan": ["Not", "Nada", "Lagu", "Pentas", "Piano"],
+    "jawaban": "Nada",
+    "pembahasan": "Buku terdiri dari kata-kata, sementara musik terdiri dari nada-nada."
+  },
+  {
+    "id": 49,
+    "soal": "Batu : Keras = Bulu : ...",
+    "pilihan": ["Lemah", "Ringan", "Halus", "Tajam", "Bersih"],
+    "jawaban": "Ringan",
+    "pembahasan": "Batu umumnya dianggap keras, sedangkan bulu umumnya dianggap ringan."
+  },
+  {
+    "id": 50,
+    "soal": "Rumah : Atap = Mobil : ...",
+    "pilihan": ["Ban", "Pintu", "Roda", "Kursi", "Steering"],
+    "jawaban": "Pintu",
+    "pembahasan": "Atap adalah bagian dari rumah, sedangkan pintu adalah bagian dari mobil."
+  },
+  {
+    "id": 51,
+    "soal": "Api : Panas = Salju : ...",
+    "pilihan": ["Dingin", "Putih", "Padat", "Es", "Panas"],
+    "jawaban": "Dingin",
+    "pembahasan": "Api biasanya panas, sedangkan salju adalah benda yang dingin."
+  },
+  {
+    "id": 52,
+    "soal": "Gitar : Senar = Pianis : ...",
+    "pilihan": ["Piano", "Musik", "Konser", "Not", "Pentas"],
+    "jawaban": "Piano",
+    "pembahasan": "Gitar memiliki senar, sama seperti seorang pianis bermain piano."
+  },
+  {
+    "id": 53,
+    "soal": "Laptop : Layar = Buku : ...",
+    "pilihan": ["Penulis", "Kertas", "Halaman", "Tulisan", "Cover"],
+    "jawaban": "Halaman",
+    "pembahasan": "Laptop memiliki layar, sedangkan buku terdiri dari halaman."
+  },
+  {
+    "id": 54,
+    "soal": "Ikan : Sirip = Burung : ...",
+    "pilihan": ["Paruh", "Ekor", "Terbang", "Sarang", "Bulu"],
+    "jawaban": "Paruh",
+    "pembahasan": "Ikan memiliki sirip, sama seperti burung memiliki paruh."
+  },
+  {
+    "id": 55,
+    "soal": "Kamera : Lensa = Mata : ...",
+    "pilihan": ["Pandang", "Kelopak", "Matahari", "Retina", "Pupil"],
+    "jawaban": "Pupil",
+    "pembahasan": "Kamera menggunakan lensa untuk mengatur cahaya yang masuk ke dalamnya dan Mata menggunakan pupil untuk mengatur cahaya yang masuk ke dalamnya."
+  },
+  {
+    "id": 56,
+    "soal": "Rumput : Hijau = Langit : ...",
+    "pilihan": ["Biru", "Terang", "Malam", "Hitam", "Mendung"],
+    "jawaban": "Biru",
+    "pembahasan": "Rumput biasanya berwarna hijau, sedangkan langit sering kali berwarna biru."
+  },
+  {
+    "id": 57,
+    "soal": "Koki : Masakan = Pemahat : ...",
+    "pilihan": ["Patung", "Marmer", "Alat", "Seni", "Lukis"],
+    "jawaban": "Patung",
+    "pembahasan": "Seorang koki membuat masakan, sementara seorang pemahat membuat patung."
+  },
+  {
+    "id": 58,
+    "soal": "Buku : Penulis = Film : ...",
+    "pilihan": ["Aktor", "Sutradara", "Skrip", "Kamera", "Studio"],
+    "jawaban": "Sutradara",
+    "pembahasan": "Seorang penulis menciptakan buku, sedangkan seorang sutradara mengarahkan pembuatan film."
+  },
+  {
+    "id": 59,
+    "soal": "Sungai : Air = Jalan : ...",
+    "pilihan": ["Mobil", "Roda", "Orang", "Lalu Lintas", "Trotoar"],
+    "jawaban": "Orang",
+    "pembahasan": "Sungai mengalirkan air, sedangkan jalan digunakan oleh orang-orang."
+  },
+  {
+    "id": 60,
+    "soal": "Kuda : Kaki = Burung : ...",
+    "pilihan": ["Pilot", "Bulu", "Terbang", "Sarang", "Sayap"],
+    "jawaban": "Sayap",
+    "pembahasan": "Kuda memiliki kaki, sementara burung memiliki sayap."
+  },
+  {
+    "id": 61,
+    "soal": "Sekolah : Belajar = Rumah : ...",
+    "pilihan": ["Makan", "Tidur", "Istirahat", "Keluarga", "Rekreasi"],
+    "jawaban": "Istirahat",
+    "pembahasan": "Sekolah adalah tempat di mana orang belajar, sedangkan rumah adalah tempat di mana orang istirahat."
+  },
+  {
+    "id": 62,
+    "soal": "Bunga : Taman = Ikan : ...",
+    "pilihan": ["Kolam", "Sungai", "Laut", "Kandang", "Gua"],
+    "jawaban": "Kolam",
+    "pembahasan": "Bunga biasanya tumbuh di taman, sedangkan ikan sering ditemui di kolam."
+  },
+  {
+    "id": 63,
+    "soal": "Guru : Mengajar = Dokter : ...",
+    "pilihan": [
+      "Berbicara",
+      "Menulis",
+      "Mengobati",
+      "Menganalisis",
+      "Mengemudi"
+    ],
+    "jawaban": "Mengobati",
+    "pembahasan": "Guru mengajar siswa, sementara dokter mengobati pasien."
+  },
+  {
+    "id": 64,
+    "soal": "Bulan : Satelit = Bumi : ...",
+    "pilihan": ["Planet", "Bola", "Asteroid", "Matahari", "Meteor"],
+    "jawaban": "Planet",
+    "pembahasan": "Bulan adalah satelit alami Bumi, sementara Bumi adalah planet di tata surya."
+  },
+  {
+    "id": 65,
+    "soal": "Baju : Lemari = Makanan : ...",
+    "pilihan": ["Kulkas", "Dapur", "Restoran", "Meja", "Rak"],
+    "jawaban": "Kulkas",
+    "pembahasan": "Baju sering disimpan di dalam lemari, sementara makanan sering disimpan di dalam kulkas."
+  },
+  {
+    "id": 66,
+    "soal": "Kamera : Gambar = Pensil : ...",
+    "pilihan": ["Tulisan", "Catatan", "Kertas", "Goresan", "Sketsa"],
+    "jawaban": "Goresan",
+    "pembahasan": "Kamera digunakan untuk mengambil gambar, sementara pensil digunakan untuk membuat goresan atau sketsa."
+  },
+  {
+    "id": 67,
+    "soal": "Mobil : Roda = Sepeda : ...",
+    "pilihan": ["Handlebar", "Sadel", "Pedal", "Lampu", "Bel"],
+    "jawaban": "Pedal",
+    "pembahasan": "Mobil memiliki roda, sementara sepeda memiliki pedal untuk menggerakkannya."
+  },
+  {
+    "id": 68,
+    "soal": "Hujan : Basah = Salju : ...",
+    "pilihan": ["Putih", "Dingin", "Es", "Beku", "Lembab"],
+    "jawaban": "Putih",
+    "pembahasan": "Hujan membuat benda basah, sedangkan salju adalah hujan yang membeku dan berwarna putih."
+  },
+  {
+    "id": 69,
+    "soal": "Buku : Kata = Puzzle : ...",
+    "pilihan": ["Kotak", "Pecahan", "Gambar", "Kesulitan", "Bagian"],
+    "jawaban": "Gambar",
+    "pembahasan": "Buku terdiri dari kata-kata, sedangkan puzzle terdiri dari gambar atau potongan-potongan gambar."
+  },
+  {
+    "id": 70,
+    "soal": "Pesawat : Terbang = Kapal : ...",
+    "pilihan": ["Berlayar", "Berenang", "Terapung", "Mengambang", "Tenggelam"],
+    "jawaban": "Berlayar",
+    "pembahasan": "Pesawat terbang di udara, sedangkan kapal berlayar di laut."
+  }
+]

@@ -1,0 +1,622 @@
+[
+  {
+    "id": 2,
+    "soal": "Sebuah sekolah memiliki 500 siswa, yang terdiri dari 300 siswa laki-laki dan 200 siswa perempuan. Dari jumlah tersebut, 100 siswa laki-laki dan 50 siswa perempuan mengikuti ekstrakurikuler basket. Berdasarkan informasi di atas, apa yang dapat disimpulkan tentang persentase siswa yang mengikuti ekstrakurikuler basket?",
+    "pilihan": [
+      "10% dari seluruh siswa.",
+      "20% dari seluruh siswa.",
+      "30% dari seluruh siswa.",
+      "40% dari seluruh siswa.",
+      "50% dari seluruh siswa."
+    ],
+    "jawaban": "30% dari seluruh siswa.",
+    "pembahasan": "Dari informasi, kita dapat menghitung bahwa jumlah siswa yang mengikuti ekstrakurikuler basket adalah 100 + 50 = 150 siswa. Persentase siswa yang mengikuti ekstrakurikuler basket terhadap seluruh siswa adalah 150 / 500 x 100% = 30%. Oleh karena itu, kita dapat menyimpulkan bahwa 30% dari seluruh siswa mengikuti ekstrakurikuler basket."
+  },
+  {
+    "id": 3,
+    "soal": "Sebuah pabrik memproduksi 1.000 botol minuman per hari. Setiap botol memiliki kapasitas 250 ml. Dari jumlah tersebut, 10% botol mengalami kebocoran dan harus dibuang. Berdasarkan informasi di atas, apa yang dapat disimpulkan tentang volume minuman yang berhasil diproduksi per hari?",
+    "pilihan": [
+      "225 liter.",
+      "237,5 liter.",
+      "250 liter.",
+      "262,5 liter.",
+      "275 liter."
+    ],
+    "jawaban": "225 liter.",
+    "pembahasan": "Dari informasi, kita dapat menghitung bahwa jumlah botol yang tidak bocor adalah 90% dari 1.000 botol, yaitu 900 botol. Volume minuman yang berhasil diproduksi per hari adalah 900 x 250 ml = 225.000 ml = 225 liter. Oleh karena itu, kita dapat menyimpulkan bahwa volume minuman yang berhasil diproduksi per hari adalah 225 liter."
+  },
+  {
+    "id": 4,
+    "soal": "Sebuah toko buku menjual berbagai macam buku dengan harga yang bervariasi. Buku-buku tersebut terdiri dari novel, komik, biografi, dan ensiklopedia. Dari jumlah tersebut, novel menyumbang 40% penjualan, komik 30%, biografi 20%, dan ensiklopedia 10%. Rata-rata harga novel adalah Rp 50.000, komik Rp 25.000, biografi Rp 75.000, dan ensiklopedia Rp 150.000. Berdasarkan informasi di atas, apa yang dapat disimpulkan tentang rata-rata harga buku di toko tersebut?",
+    "pilihan": [
+      "Rp 50.000",
+      "Rp 55.000",
+      "Rp 60.000",
+      "Rp 65.000",
+      "Rp 70.000"
+    ],
+    "jawaban": "Rp 60.000",
+    "pembahasan": "Dari informasi, kita dapat menghitung bahwa rata-rata harga buku di toko tersebut adalah (40% x 50.000) + (30% x 25.000) + (20% x 75.000) + (10% x 150.000) = 20.000 + 7.500 + 15.000 + 15.000 = 57.500. Oleh karena itu, kita dapat menyimpulkan bahwa rata-rata harga buku di toko tersebut adalah Rp 60.000."
+  },
+  {
+    "id": 5,
+    "soal": "Sebuah kelas memiliki 40 siswa, yang terdiri dari 20 siswa laki-laki dan 20 siswa perempuan. Dari jumlah tersebut, 15 siswa laki-laki dan 10 siswa perempuan mendapatkan nilai A pada mata pelajaran matematika. Berdasarkan informasi di atas, apa yang dapat disimpulkan tentang rasio siswa yang mendapatkan nilai A pada mata pelajaran matematika terhadap seluruh siswa?",
+    "pilihan": ["1 : 2", "1 : 3", "1 : 4", "2 : 3", "2 : 5"],
+    "jawaban": "2 : 5",
+    "pembahasan": "Dari informasi, kita dapat menghitung bahwa jumlah siswa yang mendapatkan nilai A pada mata pelajaran matematika adalah 15 + 10 = 25 siswa. Rasio siswa yang mendapatkan nilai A pada mata pelajaran matematika terhadap seluruh siswa adalah 25 : 40, yang dapat disederhanakan menjadi 2 : 5. Oleh karena itu, kita dapat menyimpulkan bahwa rasio siswa yang mendapatkan nilai A pada mata pelajaran matematika terhadap seluruh siswa adalah 2 : 5."
+  },
+  {
+    "id": 6,
+    "soal": "Sebuah restoran menyediakan berbagai macam menu makanan dan minuman dengan harga yang bervariasi. Menu makanan terdiri dari ayam goreng, nasi goreng, mie goreng, dan soto. Menu minuman terdiri dari teh, kopi, jus, dan susu. Rata-rata harga menu makanan adalah Rp 20.000, sedangkan rata-rata harga menu minuman adalah Rp 10.000. Berdasarkan informasi di atas, apa yang dapat disimpulkan tentang rata-rata harga menu di restoran tersebut?",
+    "pilihan": [
+      "Rp 12.500",
+      "Rp 13.750",
+      "Rp 15.000",
+      "Rp 16.250",
+      "Rp 17.500"
+    ],
+    "jawaban": "Rp 15.000",
+    "pembahasan": "Dari informasi, kita dapat menghitung bahwa rata-rata harga menu di restoran tersebut adalah (20.000 x 4 + 10.000 x 4) / 8 = 15.000. Oleh karena itu, kita dapat menyimpulkan bahwa rata-rata harga menu di restoran tersebut adalah Rp 15.000."
+  },
+  {
+    "id": 7,
+    "soal": "Sebuah tim sepak bola terdiri dari 11 pemain, yang terdiri dari 1 kiper, 4 bek, 4 gelandang, dan 2 penyerang. Dari jumlah tersebut, 3 pemain berasal dari Jawa, 4 pemain berasal dari Sumatera, 2 pemain berasal dari Kalimantan, dan 2 pemain berasal dari Sulawesi. Berdasarkan informasi di atas, apa yang dapat disimpulkan tentang proporsi pemain yang berasal dari Jawa terhadap seluruh pemain?",
+    "pilihan": ["1 : 4", "2 : 11", "3 : 11", "4 : 11", "5 : 11"],
+    "jawaban": "3 : 11",
+    "pembahasan": "Dari informasi, kita dapat melihat bahwa jumlah pemain yang berasal dari Jawa adalah 3 orang. Proporsi pemain yang berasal dari Jawa terhadap seluruh pemain adalah 3 : 11. Oleh karena itu, kita dapat menyimpulkan bahwa proporsi pemain yang berasal dari Jawa terhadap seluruh pemain adalah 3 : 11."
+  },
+  {
+    "id": 8,
+    "soal": "Sebuah perusahaan telah mengumumkan penawaran diskon 20% untuk semua produknya selama akhir pekan. Jika seorang pelanggan membeli barang senilai Rp 500.000 selama akhir pekan tersebut, berapa jumlah diskon yang akan diterimanya?",
+    "pilihan": [
+      "Rp 50.000",
+      "Rp 75.000",
+      "Rp 100.000",
+      "Rp 125.000",
+      "Rp 150.000"
+    ],
+    "jawaban": "Rp 100.000",
+    "pembahasan": "Diskon yang diberikan adalah 20% dari total belanja, yaitu 0.2 x Rp 500.000 = Rp 100.000."
+  },
+  {
+    "id": 9,
+    "soal": "Sebuah perusahaan transportasi mengoperasikan 40 bus, 20 truk, dan 10 mobil penumpang. Jika mereka memiliki total 100 sopir, berapa jumlah rasio sopir per kendaraan?",
+    "pilihan": ["1 : 2", "1 : 3", "1 : 4", "2 : 5", "2 : 7"],
+    "jawaban": "2 : 5",
+    "pembahasan": "Jumlah kendaraan adalah 40 + 20 + 10 = 70. Jumlah sopir adalah 100. Rasio sopir per kendaraan adalah 100 : 70, yang dapat disederhanakan menjadi 10 : 7 atau 2 : 5."
+  },
+  {
+    "id": 10,
+    "soal": "Sebuah restoran menyediakan menu makanan dengan harga rata-rata Rp 50.000 per porsi. Pada hari tertentu, mereka melayani 100 pelanggan. Berapa total pendapatan restoran pada hari itu?",
+    "pilihan": [
+      "Rp 5.000.000",
+      "Rp 50.000.000",
+      "Rp 500.000",
+      "Rp 100.000",
+      "Rp 1.000.000"
+    ],
+    "jawaban": "Rp 5.000.000",
+    "pembahasan": "Total pendapatan restoran pada hari itu dapat dihitung dengan mengalikan harga rata-rata per porsi (Rp 50.000) dengan jumlah pelanggan yang dilayani (100), yaitu Rp 50.000 x 100 = Rp 5.000.000."
+  },
+  {
+    "id": 11,
+    "soal": "Sebuah toko pakaian menjual baju dengan harga rata-rata Rp 150.000 per potong. Pada hari tertentu, mereka berhasil menjual 50 potong baju. Berapa total pendapatan toko pada hari itu?",
+    "pilihan": [
+      "Rp 5.000.000",
+      "Rp 7.500.000",
+      "Rp 10.000.000",
+      "Rp 12.500.000",
+      "Rp 15.000.000"
+    ],
+    "jawaban": "Rp 7.500.000",
+    "pembahasan": "Total pendapatan toko pada hari itu dapat dihitung dengan mengalikan harga rata-rata per potong baju (Rp 150.000) dengan jumlah baju yang terjual (50), yaitu Rp 150.000 x 50 = Rp 7.500.000."
+  },
+  {
+    "id": 12,
+    "soal": "Seorang siswa mengikuti ujian dengan 100 soal pilihan ganda. Jika dia menjawab dengan benar 75 soal, berapa persentase jawaban benar yang dia dapatkan?",
+    "pilihan": ["25%", "50%", "60%", "75%", "80%"],
+    "jawaban": "75%",
+    "pembahasan": "Persentase jawaban benar dapat dihitung dengan membagi jumlah soal yang dijawab dengan benar (75) oleh total jumlah soal (100), yaitu (75 / 100) x 100% = 75%."
+  },
+  {
+    "id": 13,
+    "soal": "Sebuah lapangan sepak bola memiliki panjang 110 meter dan lebar 70 meter. Berapa luas total lapangan tersebut?",
+    "pilihan": ["7.000 m^2", "7.700 m^2", "77.000 m^2", "770 m^2", "7700 m^2"],
+    "jawaban": "7700 m^2",
+    "pembahasan": "Luas lapangan sepak bola dapat dihitung dengan mengalikan panjang dan lebar, yaitu 110 meter x 70 meter = 7700 m^2."
+  },
+  {
+    "id": 14,
+    "soal": "Sebuah perusahaan mempekerjakan 500 karyawan tetap dan 200 karyawan kontrak. Jika perusahaan tersebut mengalami pemotongan karyawan tetap sebanyak 10%, berapa jumlah karyawan yang dipecat?",
+    "pilihan": ["20", "50", "100", "200", "250"],
+    "jawaban": "50",
+    "pembahasan": "Jumlah karyawan tetap yang dipecat dapat dihitung dengan mengalikan persentase pemotongan (10%) dengan jumlah karyawan tetap (500), yaitu (10 / 100) x 500 = 50 karyawan."
+  },
+  {
+    "id": 15,
+    "soal": "Sebuah perusahaan telah mendapatkan kontrak proyek senilai Rp 2.000.000.000. Dari jumlah tersebut, 20% merupakan biaya operasional. Berapa total biaya operasional yang harus dibayar?",
+    "pilihan": [
+      "Rp 200.000.000",
+      "Rp 400.000.000",
+      "Rp 500.000.000",
+      "Rp 800.000.000",
+      "Rp 1.000.000.000"
+    ],
+    "jawaban": "Rp 400.000.000",
+    "pembahasan": "Total biaya operasional dapat dihitung dengan mengalikan persentase biaya operasional (20%) dengan nilai kontrak proyek (Rp 2.000.000.000), yaitu (20 / 100) x Rp 2.000.000.000 = Rp 400.000.000."
+  },
+  {
+    "id": 16,
+    "soal": "Sebuah restoran menghasilkan keuntungan sebesar Rp 10.000.000 selama satu bulan. Jika keuntungan tersebut harus dibagi antara 4 pemilik restoran, berapa jumlah keuntungan yang akan diterima setiap pemilik?",
+    "pilihan": [
+      "Rp 2.000.000",
+      "Rp 4.000.000",
+      "Rp 6.000.000",
+      "Rp 8.000.000",
+      "Rp 10.000.000"
+    ],
+    "jawaban": "Rp 2.500.000",
+    "pembahasan": "Jumlah keuntungan yang akan diterima setiap pemilik restoran dapat dihitung dengan membagi total keuntungan (Rp 10.000.000) oleh jumlah pemilik (4), yaitu Rp 10.000.000 / 4 = Rp 2.500.000."
+  },
+  {
+    "id": 17,
+    "soal": "Sebuah toko elektronik menjual televisi dengan harga rata-rata Rp 5.000.000 per unit. Pada bulan tertentu, mereka berhasil menjual 30 unit televisi. Berapa total pendapatan toko dari penjualan televisi pada bulan itu?",
+    "pilihan": [
+      "Rp 50.000.000",
+      "Rp 150.000.000",
+      "Rp 300.000.000",
+      "Rp 450.000.000",
+      "Rp 500.000.000"
+    ],
+    "jawaban": "Rp 150.000.000",
+    "pembahasan": "Total pendapatan toko dari penjualan televisi pada bulan itu dapat dihitung dengan mengalikan harga rata-rata per unit televisi (Rp 5.000.000) dengan jumlah unit yang terjual (30), yaitu Rp 5.000.000 x 30 = Rp 150.000.000."
+  },
+  {
+    "id": 18,
+    "soal": "Seorang siswa telah mempersiapkan presentasi untuk tugas akhirnya. Sebelum presentasi, dia melakukan riset mendalam selama beberapa bulan. Pada saat presentasi, apa yang seharusnya menjadi fokus utama siswa tersebut?",
+    "pilihan": [
+      "Pakaian yang dikenakan",
+      "Durasi presentasi",
+      "Pemahaman materi",
+      "Latar belakang siswa",
+      "Bahasa tubuh"
+    ],
+    "jawaban": "Pemahaman materi",
+    "pembahasan": "Fokus utama seorang siswa saat presentasi tugas akhir seharusnya adalah pemahaman yang mendalam tentang materi yang akan dia presentasikan."
+  },
+  {
+    "id": 19,
+    "soal": "Sebuah perusahaan mengumumkan peluncuran produk baru mereka. Mereka telah melakukan riset pasar yang ekstensif dan mengklaim bahwa produk mereka adalah yang terbaik di pasaran. Apa yang seharusnya dilakukan calon pembeli sebelum memutuskan untuk membeli produk tersebut?",
+    "pilihan": [
+      "Membeli produk tanpa pertimbangan",
+      "Membaca ulasan pelanggan",
+      "Memilih merek terkenal saja",
+      "Mendengarkan iklan perusahaan",
+      "Mengecek harga produk"
+    ],
+    "jawaban": "Membaca ulasan pelanggan",
+    "pembahasan": "Sebelum membeli produk, calon pembeli sebaiknya membaca ulasan pelanggan untuk mendapatkan informasi tentang pengalaman orang lain dengan produk tersebut."
+  },
+  {
+    "id": 20,
+    "soal": "Seorang mahasiswa telah menyelesaikan tugas kuliahnya secara individu tanpa bekerja sama dengan teman-temannya. Namun, saat menerima nilai, dia mendapati bahwa nilai yang diberikan jauh lebih rendah dari yang dia harapkan. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Mengabaikan nilai tersebut",
+      "Mengeluh kepada dosen",
+      "Mengancam teman-temannya",
+      "Meminta klarifikasi kepada dosen",
+      "Menyelesaikan tugas ulang secara diam-diam"
+    ],
+    "jawaban": "Meminta klarifikasi kepada dosen",
+    "pembahasan": "Langkah pertama yang seharusnya diambil oleh mahasiswa adalah meminta klarifikasi kepada dosen untuk memahami alasannya mendapatkan nilai rendah."
+  },
+  {
+    "id": 21,
+    "soal": "Seorang pengemudi sedang dalam perjalanan jauh dengan mobilnya. Dia melihat tanda lalu lintas yang mengindikasikan bahwa bahan bakar akan habis dalam 50 kilometer. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Meneruskan perjalanan dengan cepat",
+      "Mengisi bahan bakar segera",
+      "Mengabaikan tanda tersebut",
+      "Berhenti dan memeriksa kendaraan",
+      "Menghubungi bengkel terdekat"
+    ],
+    "jawaban": "Mengisi bahan bakar segera",
+    "pembahasan": "Ketika melihat tanda bahwa bahan bakar akan habis dalam jarak tertentu, pengemudi seharusnya mengisi bahan bakar segera untuk menghindari kehabisan bahan bakar di tengah jalan."
+  },
+  {
+    "id": 22,
+    "soal": "Seorang pekerja di sebuah perusahaan mendapatkan tawaran pekerjaan dari perusahaan lain yang menawarkan gaji yang lebih tinggi. Apa yang seharusnya dia pertimbangkan sebelum menerima tawaran tersebut?",
+    "pilihan": [
+      "Gaji saja",
+      "Kondisi kerja dan budaya perusahaan",
+      "Lokasi perusahaan baru",
+      "Status pekerjaan saat ini",
+      "Warna dinding kantor baru"
+    ],
+    "jawaban": "Kondisi kerja dan budaya perusahaan",
+    "pembahasan": "Sebelum menerima tawaran pekerjaan, seseorang seharusnya mempertimbangkan kondisi kerja dan budaya perusahaan baru untuk memastikan kesesuaian dengan preferensi dan tujuan kariernya."
+  },
+  {
+    "id": 23,
+    "soal": "Seorang siswa sedang belajar untuk ujian besar. Dia memiliki banyak materi yang harus dia pelajari. Apa yang seharusnya menjadi prioritasnya dalam mengatur waktu dan belajar?",
+    "pilihan": [
+      "Membaca semua materi dengan cepat",
+      "Menghabiskan banyak waktu pada satu topik",
+      "Menghindari istirahat",
+      "Menyusun jadwal belajar yang ketat",
+      "Mengerjakan tugas lain saat belajar"
+    ],
+    "jawaban": "Menghabiskan banyak waktu pada satu topik",
+    "pembahasan": "Prioritas dalam belajar untuk ujian besar seharusnya adalah fokus pada satu topik sekaligus untuk pemahaman yang mendalam daripada membaca semua materi dengan cepat."
+  },
+  {
+    "id": 24,
+    "soal": "Seorang manajer proyek harus mengatur timnya untuk menyelesaikan proyek yang kompleks dalam waktu singkat. Apa yang seharusnya menjadi perhatiannya dalam mengelola tim dan sumber daya?",
+    "pilihan": [
+      "Memberikan pekerjaan lebih banyak pada tim terkuat",
+      "Mengabaikan sumber daya yang kurang berkualitas",
+      "Mengutamakan jadwal proyek daripada kualitas",
+      "Komunikasi dan kolaborasi dalam tim",
+      "Menghindari delegasi tugas"
+    ],
+    "jawaban": "Komunikasi dan kolaborasi dalam tim",
+    "pembahasan": "Dalam mengelola proyek yang kompleks, penting untuk memprioritaskan komunikasi dan kolaborasi dalam tim untuk memastikan pemahaman yang jelas dan efisiensi sumber daya."
+  },
+  {
+    "id": 25,
+    "soal": "Seorang pelanggan mengalami masalah dengan produk yang dibelinya. Dia menghubungi layanan pelanggan perusahaan untuk mendapatkan bantuan. Apa yang seharusnya diharapkan oleh pelanggan dari layanan pelanggan?",
+    "pilihan": [
+      "Tidak ada respon",
+      "Solusi cepat tanpa pertanyaan",
+      "Pertanyaan yang rumit",
+      "Ketidakramahan",
+      "Tanggapan yang cepat dan membantu"
+    ],
+    "jawaban": "Tanggapan yang cepat dan membantu",
+    "pembahasan": "Seorang pelanggan seharusnya mengharapkan tanggapan yang cepat dan membantu dari layanan pelanggan untuk menyelesaikan masalahnya."
+  },
+  {
+    "id": 26,
+    "soal": "Seorang siswa sedang menghadapi ujian besar yang akan datang. Dia merasa cemas dan sulit tidur. Apa yang seharusnya dia lakukan untuk mengatasi rasa cemas tersebut?",
+    "pilihan": [
+      "Minum alkohol sebelum tidur",
+      "Mengonsumsi kafein untuk tetap terjaga",
+      "Berolahraga keras di malam hari",
+      "Menggunakan teknik relaksasi",
+      "Menyendiri dan mengkhawatirkan ujian"
+    ],
+    "jawaban": "Menggunakan teknik relaksasi",
+    "pembahasan": "Untuk mengatasi rasa cemas sebelum ujian besar, sebaiknya siswa menggunakan teknik relaksasi seperti pernapasan dalam atau meditasi daripada kebiasaan buruk seperti minum alkohol atau kafein."
+  },
+  {
+    "id": 27,
+    "soal": "Seorang pekerja harus memilih antara dua proyek yang ditawarkan oleh perusahaan. Proyek pertama memiliki bayaran yang lebih tinggi, tetapi akan memerlukan jam kerja yang sangat panjang. Proyek kedua memiliki bayaran yang lebih rendah, tetapi dengan jam kerja yang lebih normal. Apa yang seharusnya dia pertimbangkan dalam membuat keputusan?",
+    "pilihan": [
+      "Bayaran saja",
+      "Jam kerja panjang",
+      "Jam kerja normal",
+      "Keseimbangan antara bayaran dan jam kerja",
+      "Memilih proyek tanpa pertimbangan"
+    ],
+    "jawaban": "Keseimbangan antara bayaran dan jam kerja",
+    "pembahasan": "Dalam memilih proyek, seorang pekerja seharusnya mempertimbangkan keseimbangan antara bayaran yang diterima dan jam kerja yang diperlukan untuk mencapainya."
+  },
+  {
+    "id": 28,
+    "soal": "Seorang mahasiswa sedang memilih jurusan kuliah. Dia memiliki minat yang kuat dalam seni dan desain, tetapi orang tuanya ingin dia memilih jurusan yang lebih praktis dengan peluang kerja yang tinggi. Apa yang seharusnya dia pertimbangkan dalam mengambil keputusan?",
+    "pilihan": [
+      "Minat pribadi saja",
+      "Harapan orang tua saja",
+      "Keseimbangan antara minat dan peluang kerja",
+      "Tidak memilih jurusan kuliah",
+      "Mengabaikan minat dan harapan orang tua"
+    ],
+    "jawaban": "Keseimbangan antara minat dan peluang kerja",
+    "pembahasan": "Dalam memilih jurusan kuliah, penting untuk mempertimbangkan keseimbangan antara minat pribadi dan peluang kerja di masa depan."
+  },
+  {
+    "id": 29,
+    "soal": "Seorang guru memiliki dua siswa yang berperilaku berbeda dalam kelas. Siswa pertama selalu berpartisipasi aktif dalam diskusi dan tugas, sementara siswa kedua cenderung pasif dan jarang berbicara. Apa yang seharusnya guru lakukan untuk memastikan kedua siswa merasa dihargai?",
+    "pilihan": [
+      "Memuji hanya siswa yang aktif",
+      "Mengabaikan siswa yang pasif",
+      "Mendiskriminasi siswa pasif",
+      "Menghargai usaha dan kontribusi kedua siswa",
+      "Memarahi kedua siswa"
+    ],
+    "jawaban": "Menghargai usaha dan kontribusi kedua siswa",
+    "pembahasan": "Sebagai guru, penting untuk menghargai usaha dan kontribusi semua siswa, termasuk yang mungkin lebih pasif dalam kelas."
+  },
+  {
+    "id": 30,
+    "soal": "Seorang manajer proyek sedang menghadapi perubahan dalam jadwal proyeknya karena terlambatnya pengiriman bahan. Apa yang seharusnya dia lakukan untuk mengatasi situasi ini?",
+    "pilihan": [
+      "Menyalahkan pihak yang terlambat mengirim bahan",
+      "Mengabaikan perubahan jadwal",
+      "Mengubah target proyek tanpa pertimbangan",
+      "Mengkomunikasikan perubahan jadwal kepada tim",
+      "Memutuskan proyek"
+    ],
+    "jawaban": "Mengkomunikasikan perubahan jadwal kepada tim",
+    "pembahasan": "Dalam menghadapi perubahan jadwal proyek, penting untuk mengkomunikasikan perubahan tersebut kepada tim proyek untuk memastikan semua pihak terinformasi dan dapat beradaptasi."
+  },
+  {
+    "id": 31,
+    "soal": "Seorang penulis telah menyelesaikan naskah novelnya. Setelah membacanya kembali, dia merasa ada beberapa bagian yang perlu diperbaiki. Apa yang seharusnya menjadi langkah selanjutnya?",
+    "pilihan": [
+      "Mengirim naskah tanpa revisi",
+      "Mengabaikan perbaikan yang diperlukan",
+      "Meminta saran dari orang lain",
+      "Menghapus seluruh naskah",
+      "Menyelesaikan naskah lain tanpa revisi"
+    ],
+    "jawaban": "Meminta saran dari orang lain",
+    "pembahasan": "Langkah selanjutnya setelah menyelesaikan naskah adalah meminta saran dan masukan dari orang lain untuk perbaikan yang lebih baik."
+  },
+  {
+    "id": 32,
+    "soal": "Seorang mahasiswa memiliki tugas akhir yang harus dia selesaikan dalam waktu dua minggu. Namun, dia merasa kehilangan motivasi dan tidak tahu dari mana memulainya. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Menunda pekerjaan lebih lama",
+      "Menggunakan plagiarisme untuk menyelesaikan tugas",
+      "Mencari bantuan dari teman tanpa usaha sendiri",
+      "Membuat rencana jelas untuk menyelesaikan tugas",
+      "Menyerah pada tugas"
+    ],
+    "jawaban": "Membuat rencana jelas untuk menyelesaikan tugas",
+    "pembahasan": "Untuk mengatasi kehilangan motivasi, mahasiswa sebaiknya membuat rencana jelas tentang bagaimana menyelesaikan tugas akhirnya."
+  },
+  {
+    "id": 33,
+    "soal": "Seorang karyawan baru dalam sebuah perusahaan merasa kesulitan beradaptasi dengan timnya. Apa yang seharusnya dia lakukan untuk membangun hubungan yang baik dengan rekan kerja?",
+    "pilihan": [
+      "Menghindari komunikasi dengan rekan kerja",
+      "Mengkritik rekan kerja secara terbuka",
+      "Mendominasi diskusi dalam tim",
+      "Mengambil inisiatif untuk berkolaborasi",
+      "Mengabaikan rekan kerja"
+    ],
+    "jawaban": "Mengambil inisiatif untuk berkolaborasi",
+    "pembahasan": "Untuk membangun hubungan yang baik dengan rekan kerja, penting bagi karyawan baru untuk mengambil inisiatif dalam berkolaborasi dan berkomunikasi dengan timnya."
+  },
+  {
+    "id": 34,
+    "soal": "Seorang pengusaha memiliki bisnis yang sedang tumbuh pesat. Dia mendapatkan tawaran untuk mengambil pinjaman besar untuk memperluas bisnisnya. Apa yang seharusnya menjadi pertimbangan utama sebelum mengambil pinjaman tersebut?",
+    "pilihan": [
+      "Mengambil pinjaman tanpa pertimbangan",
+      "Mengabaikan tawaran pinjaman",
+      "Mempertimbangkan pertumbuhan bisnis dan kemampuan membayar kembali",
+      "Tidak memperluas bisnis",
+      "Mengambil pinjaman tanpa rencana penggunaan dana"
+    ],
+    "jawaban": "Mempertimbangkan pertumbuhan bisnis dan kemampuan membayar kembali",
+    "pembahasan": "Pertimbangan utama sebelum mengambil pinjaman adalah mempertimbangkan pertumbuhan bisnis dan kemampuan perusahaan untuk membayar kembali pinjaman tersebut."
+  },
+  {
+    "id": 35,
+    "soal": "Seorang pelajar memiliki banyak tugas sekolah yang harus diselesaikan dalam waktu yang singkat. Dia merasa terlalu banyak tekanan. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Menyelesaikan semua tugas dengan buru-buru tanpa kualitas",
+      "Menyampaikan keluhan kepada guru",
+      "Mintalah bantuan dari teman-teman",
+      "Mengatur waktu dengan baik untuk menyelesaikan tugas",
+      "Mengabaikan tugas sekolah"
+    ],
+    "jawaban": "Mengatur waktu dengan baik untuk menyelesaikan tugas",
+    "pembahasan": "Untuk mengatasi tekanan tugas sekolah, seorang pelajar sebaiknya mengatur waktu dengan baik agar dapat menyelesaikan tugas dengan kualitas yang baik."
+  },
+  {
+    "id": 36,
+    "soal": "Seorang atlet sedang bersiap untuk kompetisi besar. Dia ingin memenangkan perlombaan tersebut tetapi merasa gugup. Apa yang seharusnya dia lakukan untuk mengatasi rasa gugup?",
+    "pilihan": [
+      "Menghindari kompetisi",
+      "Berbicara tentang rasa gugup kepada lawan",
+      "Menggunakan teknik relaksasi dan visualisasi",
+      "Mengabaikan persiapan",
+      "Menyampaikan rasa gugup kepada pelatih"
+    ],
+    "jawaban": "Menggunakan teknik relaksasi dan visualisasi",
+    "pembahasan": "Untuk mengatasi rasa gugup sebelum kompetisi, atlet sebaiknya menggunakan teknik relaksasi dan visualisasi untuk membantu fokus dan keseimbangan mental."
+  },
+  {
+    "id": 37,
+    "soal": "Seorang guru harus mengajar di kelas yang memiliki beragam tingkat kemampuan. Beberapa siswa sangat cerdas sementara yang lain mungkin kesulitan. Apa yang seharusnya menjadi pendekatan terbaik bagi guru dalam mengajar?",
+    "pilihan": [
+      "Mengabaikan siswa yang kesulitan",
+      "Mengabaikan siswa yang cerdas",
+      "Menggunakan pendekatan yang sama untuk semua siswa",
+      "Menggunakan pendekatan diferensiasi untuk memenuhi kebutuhan berbagai siswa",
+      "Menghukum siswa yang kesulitan"
+    ],
+    "jawaban": "Menggunakan pendekatan diferensiasi untuk memenuhi kebutuhan berbagai siswa",
+    "pembahasan": "Pendekatan terbaik dalam mengajar kelas dengan tingkat kemampuan yang beragam adalah menggunakan pendekatan diferensiasi yang memenuhi kebutuhan berbagai siswa."
+  },
+  {
+    "id": 38,
+    "soal": "Seorang pemimpin proyek bertanggung jawab atas tim yang tersebar di berbagai lokasi geografis. Bagaimana cara terbaik untuk memastikan komunikasi efektif dalam proyek tersebut?",
+    "pilihan": [
+      "Tidak perlu komunikasi dalam tim tersebar",
+      "Mengirim email satu kali sebulan",
+      "Menggunakan alat kolaborasi online dan rapat rutin",
+      "Hanya berkomunikasi dengan anggota tim yang dekat geografis",
+      "Mengandalkan komunikasi tatap muka"
+    ],
+    "jawaban": "Menggunakan alat kolaborasi online dan rapat rutin",
+    "pembahasan": "Dalam proyek dengan tim tersebar, komunikasi efektif dapat dijaga melalui penggunaan alat kolaborasi online dan rapat rutin untuk memastikan semua anggota tim terhubung dan terinformasi."
+  },
+  {
+    "id": 39,
+    "soal": "Seorang pekerja harus menghadiri rapat proyek yang berlangsung pada hari ulang tahun anaknya. Bagaimana seharusnya dia mengatasi konflik waktu ini?",
+    "pilihan": [
+      "Absen dari rapat proyek tanpa pemberitahuan",
+      "Mengabaikan ulang tahun anaknya",
+      "Meminta rekan kerja lain untuk menghadiri rapat",
+      "Meminta izin dari atasan dan mencari pengganti sementara",
+      "Menjadi sangat stres dan hadir di rapat"
+    ],
+    "jawaban": "Meminta izin dari atasan dan mencari pengganti sementara",
+    "pembahasan": "Mengatasi konflik waktu antara tugas pekerjaan dan urusan pribadi dapat dilakukan dengan meminta izin dari atasan dan mencari pengganti sementara untuk menghadiri rapat proyek."
+  },
+  {
+    "id": 40,
+    "soal": "Seorang siswa telah mempersiapkan presentasi untuk kelasnya. Namun, di hari presentasi, dia mendapati bahwa laptopnya rusak dan tidak bisa digunakan. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Mengabaikan presentasi dan keluar dari kelas",
+      "Mengandalkan teman untuk memberikan laptop mereka",
+      "Menggunakan ponsel untuk presentasi",
+      "Memberi tahu dosen tentang masalah teknis dan mencari solusinya",
+      "Menyampaikan presentasi tanpa visual"
+    ],
+    "jawaban": "Memberi tahu dosen tentang masalah teknis dan mencari solusinya",
+    "pembahasan": "Jika menghadapi masalah teknis seperti laptop rusak, seorang siswa sebaiknya memberi tahu dosen dan mencari solusi bersama untuk menyelesaikan presentasi."
+  },
+  {
+    "id": 41,
+    "soal": "Seorang manajer proyek harus memutuskan antara dua vendor yang menawarkan harga yang sama untuk produk yang sama. Bagaimana seharusnya dia membuat keputusan ini?",
+    "pilihan": [
+      "Mengambil keputusan berdasarkan koin dilempar",
+      "Memilih vendor pertama yang ditemui",
+      "Menganalisis reputasi dan pengalaman kedua vendor",
+      "Mengabaikan kedua vendor dan mencari yang lain",
+      "Memilih vendor berdasarkan keberuntungan"
+    ],
+    "jawaban": "Menganalisis reputasi dan pengalaman kedua vendor",
+    "pembahasan": "Seorang manajer proyek sebaiknya membuat keputusan berdasarkan analisis reputasi dan pengalaman kedua vendor, bukan dengan metode acak atau berdasarkan faktor yang tidak relevan."
+  },
+  {
+    "id": 42,
+    "soal": "Seorang siswa mengalami kesulitan dalam memahami materi pelajaran di kelas. Apa yang seharusnya dia lakukan untuk memahami materi tersebut?",
+    "pilihan": [
+      "Mengabaikan materi dan tidak mempelajarinya",
+      "Mintalah teman untuk memberi tahu apa yang harus dipelajari",
+      "Meminta bantuan dari guru atau tutor",
+      "Menyalahkan guru atas kesulitan belajar",
+      "Hanya bersantai dan tidak melakukan apa-apa"
+    ],
+    "jawaban": "Meminta bantuan dari guru atau tutor",
+    "pembahasan": "Ketika mengalami kesulitan dalam memahami materi, seorang siswa sebaiknya meminta bantuan dari guru atau tutor untuk mendapatkan penjelasan tambahan dan bimbingan."
+  },
+  {
+    "id": 43,
+    "soal": "Seorang pengusaha ingin memulai bisnis baru tetapi memiliki anggaran terbatas. Bagaimana seharusnya dia mengembangkan ide bisnis dengan anggaran terbatas?",
+    "pilihan": [
+      "Mengabaikan ide bisnis",
+      "Menginvestasikan seluruh uang yang dimiliki",
+      "Mengajukan pinjaman besar-besaran",
+      "Mengembangkan rencana bisnis yang efisien dengan anggaran terbatas",
+      "Menyewa konsultan bisnis"
+    ],
+    "jawaban": "Mengembangkan rencana bisnis yang efisien dengan anggaran terbatas",
+    "pembahasan": "Pengusaha dengan anggaran terbatas sebaiknya mengembangkan rencana bisnis yang efisien dan memanfaatkan sumber daya yang tersedia dengan bijak."
+  },
+  {
+    "id": 44,
+    "soal": "Seorang pekerja dihadapkan pada tugas yang memerlukan keahlian yang belum dia kuasai. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Menolak tugas tersebut",
+      "Melakukan tugas dengan sembarangan",
+      "Belajar dan mengembangkan keahlian yang diperlukan",
+      "Minta rekan kerja untuk melakukannya",
+      "Menghindari tugas tersebut"
+    ],
+    "jawaban": "Belajar dan mengembangkan keahlian yang diperlukan",
+    "pembahasan": "Dalam menghadapi tugas yang memerlukan keahlian baru, seorang pekerja sebaiknya bersedia untuk belajar dan mengembangkan keahlian yang diperlukan."
+  },
+  {
+    "id": 45,
+    "soal": "Seorang guru memiliki siswa yang selalu mengejar nilai tinggi dan tidak peduli dengan pembelajaran itu sendiri. Apa yang seharusnya menjadi pendekatan terbaik bagi guru dalam menghadapi siswa seperti ini?",
+    "pilihan": [
+      "Mengabaikan siswa tersebut",
+      "Memberikan nilai tinggi tanpa pertimbangan",
+      "Mengingatkan siswa untuk tidak selalu mengejar nilai",
+      "Mengutuk siswa di depan kelas",
+      "Membimbing siswa untuk mengembangkan minat pada pembelajaran"
+    ],
+    "jawaban": "Membimbing siswa untuk mengembangkan minat pada pembelajaran",
+    "pembahasan": "Sebagai guru, pendekatan terbaik adalah membimbing siswa agar mereka mengembangkan minat pada pembelajaran itu sendiri daripada hanya mengejar nilai tinggi."
+  },
+  {
+    "id": 46,
+    "soal": "Seorang manajer harus memilih antara dua kandidat yang memiliki keterampilan yang hampir sama untuk posisi pekerjaan. Bagaimana dia seharusnya membuat keputusan ini?",
+    "pilihan": [
+      "Menggunakan undian sebagai metode penentuan",
+      "Memilih kandidat pertama yang dia temui",
+      "Mengabaikan kedua kandidat dan mencari yang lain",
+      "Melakukan wawancara lebih lanjut untuk memahami lebih baik",
+      "Memilih kandidat berdasarkan usia"
+    ],
+    "jawaban": "Melakukan wawancara lebih lanjut untuk memahami lebih baik",
+    "pembahasan": "Seorang manajer sebaiknya melakukan wawancara lebih lanjut dengan kedua kandidat untuk memahami lebih baik tentang keterampilan dan kepribadian mereka sebelum membuat keputusan."
+  },
+  {
+    "id": 47,
+    "soal": "Seorang mahasiswa memiliki banyak tugas dan ujian yang harus dia selesaikan dalam waktu yang sama. Apa yang seharusnya menjadi prioritasnya?",
+    "pilihan": [
+      "Menyelesaikan tugas yang paling mudah terlebih dahulu",
+      "Menunda semua tugas hingga mendekati deadline",
+      "Menggunakan waktu dengan bijak untuk mengatasi tugas dan ujian secara bertahap",
+      "Mengabaikan beberapa tugas",
+      "Meminta teman untuk menyelesaikan tugasnya"
+    ],
+    "jawaban": "Menggunakan waktu dengan bijak untuk mengatasi tugas dan ujian secara bertahap",
+    "pembahasan": "Seorang mahasiswa sebaiknya menggunakan waktu dengan bijak untuk mengatasi tugas dan ujian secara bertahap, bukan menunda atau mengabaikan tugas."
+  },
+  {
+    "id": 48,
+    "soal": "Seorang karyawan merasa bahwa dia tidak mendapatkan pengakuan yang layak untuk kontribusinya di tempat kerja. Apa yang seharusnya dia lakukan?",
+    "pilihan": [
+      "Mengadukan perasaannya kepada semua rekan kerja",
+      "Mengakhiri semua kontribusinya",
+      "Mengabaikan perasaannya dan bekerja dengan biasa saja",
+      "Berbicara dengan atasan atau manajer tentang perasaannya",
+      "Melakukan sabotase di tempat kerja"
+    ],
+    "jawaban": "Berbicara dengan atasan atau manajer tentang perasaannya",
+    "pembahasan": "Jika seorang karyawan merasa tidak mendapatkan pengakuan yang layak, langkah yang tepat adalah berbicara dengan atasan atau manajer untuk menyampaikan perasaannya dan mencari solusi bersama."
+  },
+  {
+    "id": 49,
+    "soal": "Seorang perusahaan teknologi ingin merilis produk baru yang akan bersaing dengan produk sejenis dari pesaing terdekat. Apa yang seharusnya menjadi langkah pertama dalam merencanakan peluncuran produk baru?",
+    "pilihan": [
+      "Langsung merilis produk tanpa perencanaan",
+      "Mengadakan rapat internal dengan tim",
+      "Mengidentifikasi target pasar dan analisis pesaing",
+      "Membentuk tim pemasaran",
+      "Mengirimkan produk ke toko-toko"
+    ],
+    "jawaban": "Mengidentifikasi target pasar dan analisis pesaing",
+    "pembahasan": "Langkah pertama yang penting dalam merencanakan peluncuran produk baru adalah mengidentifikasi target pasar yang tepat dan melakukan analisis pesaing untuk memahami lingkungan bisnis."
+  },
+  {
+    "id": 50,
+    "soal": "Seorang manajer proyek menghadapi kendala anggaran yang ketat dalam proyeknya. Bagaimana seharusnya dia mengelola anggaran proyek dengan efektif?",
+    "pilihan": [
+      "Mengalokasikan anggaran secara sembarangan",
+      "Mengabaikan anggaran dan fokus pada pelaksanaan proyek",
+      "Mengidentifikasi prioritas dan mengelola anggaran dengan cermat",
+      "Mengajukan tambahan anggaran kepada atasan",
+      "Mengurangi kualitas proyek untuk menghemat anggaran"
+    ],
+    "jawaban": "Mengidentifikasi prioritas dan mengelola anggaran dengan cermat",
+    "pembahasan": "Dalam menghadapi kendala anggaran, seorang manajer proyek sebaiknya mengidentifikasi prioritas proyek dan mengelola anggaran dengan cermat agar sumber daya tersedia digunakan secara efisien."
+  },
+  {
+    "id": 51,
+    "soal": "Dalam sebuah perusahaan, terdapat dua departemen: Departemen A dan Departemen B. Departemen A memiliki 20 karyawan, sementara Departemen B memiliki 15 karyawan. Apakah jumlah karyawan di Departemen A lebih banyak daripada Departemen B?",
+    "pilihan": ["Ya", "Tidak"],
+    "jawaban": "Ya",
+    "pembahasan": "Jumlah karyawan di Departemen A (20 karyawan) lebih banyak daripada Departemen B (15 karyawan), sehingga jawabannya adalah 'Ya'."
+  },
+  {
+    "id": 52,
+    "soal": "Seorang peneliti ingin menguji efektivitas dua jenis pupuk berbeda dalam meningkatkan hasil pertanian. Dia memilih dua kelompok tanaman yang serupa, satu kelompok diberi pupuk A dan kelompok lainnya diberi pupuk B. Setelah panen, hasil tanaman kelompok yang diberi pupuk A lebih tinggi daripada kelompok yang diberi pupuk B. Apa kesimpulan yang dapat diambil dari hasil penelitian ini?",
+    "pilihan": [
+      "Pupuk A lebih efektif daripada pupuk B.",
+      "Pupuk B lebih efektif daripada pupuk A.",
+      "Tidak ada perbedaan antara kedua pupuk.",
+      "Hasil penelitian tidak dapat diandalkan."
+    ],
+    "jawaban": "Pupuk A lebih efektif daripada pupuk B.",
+    "pembahasan": "Kesimpulan yang dapat diambil adalah pupuk A lebih efektif dalam meningkatkan hasil pertanian dibandingkan dengan pupuk B karena hasil tanaman kelompok yang diberi pupuk A lebih tinggi."
+  }
+]

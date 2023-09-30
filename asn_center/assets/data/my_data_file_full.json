@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nama_materi": "Kemampuan Verbal: Analogi (perbandingan 2 konsep)",
+    "nama_file": "bank_soal_analogi.json"
+  },
+  {
+    "id": 2,
+    "nama_materi": "Kemampuan Verbal: Silogisme (menarik kesimpulan dari 2 pernyataan)",
+    "nama_file": "bank_soal_silogisme.json"
+  },
+  {
+    "id": 3,
+    "nama_materi": "Kemampuan Verbal: Analitis (menganalisis informasi dan menarik kesimpulan)",
+    "nama_file": "bank_soal_verbal_analitis.json"
+  },
+  {
+    "id": 4,
+    "nama_materi": "Kemampuan Numerik: Aritmatika (operasi hitung dasar)",
+    "nama_file": "bank_soal_numerik_aritmatika.json"
+  },
+  {
+    "id": 5,
+    "nama_materi": "Kemampuan Numerik: Aljabar (persamaan dan pertidaksamaan)",
+    "nama_file": "bank_soal_numerik_aljabar.json"
+  },
+  {
+    "id": 6,
+    "nama_materi": "Kemampuan Numerik: Geometri (bentuk, ukuran, dan sudut)",
+    "nama_file": "bank_soal_numerik_geometri.json"
+  },
+  {
+    "id": 7,
+    "nama_materi": "Kemampuan Figural: Seri (mencari pola dan urutan)",
+    "nama_file": "bank_soal_figural_seri.json"
+  },
+  {
+    "id": 8,
+    "nama_materi": "Kemampuan Figural: Klasifikasi (mengelompokkan objek berdasarkan kriteria tertentu)",
+    "nama_file": "bank_soal_figural_klasifikasi.json"
+  },
+  {
+    "id": 9,
+    "nama_materi": "Kemampuan Figural: Matriks (mencari hubungan antara gambar)",
+    "nama_file": "bank_soal_figural_matriks.json"
+  }
+]

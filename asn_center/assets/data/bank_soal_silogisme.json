@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "soal": "Semua manusia adalah makhluk berpikir. Socrates adalah seorang manusia.",
+    "pilihan": [
+      "Semua manusia adalah makhluk berdaun.",
+      "Socrates adalah seekor kucing.",
+      "Semua manusia adalah hewan.",
+      "Semua kucing adalah makhluk berpikir.",
+      "Socrates adalah makhluk berpikir."
+    ],
+    "jawaban": "Socrates adalah makhluk berpikir.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua manusia adalah makhluk berpikir. Selanjutnya, Socrates diidentifikasi sebagai seorang manusia. Jadi, kita dapat menyimpulkan bahwa Socrates adalah makhluk berpikir, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 2,
+    "soal": "Semua bunga adalah indah. Mawar adalah sejenis bunga.",
+    "pilihan": [
+      "Semua bunga adalah mawar.",
+      "Mawar adalah indah.",
+      "Mawar adalah jelek.",
+      "Semua indah adalah bunga.",
+      "Mawar adalah harum."
+    ],
+    "jawaban": "Mawar adalah indah.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua bunga adalah indah. Selanjutnya, mawar diidentifikasi sebagai sejenis bunga. Jadi, kita dapat menyimpulkan bahwa mawar adalah indah, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 3,
+    "soal": "Semua kucing adalah hewan. Garfield adalah seekor kucing.",
+    "pilihan": [
+      "Semua hewan adalah kucing.",
+      "Garfield adalah hewan.",
+      "Garfield adalah manusia.",
+      "Semua kucing adalah Garfield.",
+      "Garfield adalah oranye."
+    ],
+    "jawaban": "Garfield adalah hewan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua kucing adalah hewan. Selanjutnya, Garfield diidentifikasi sebagai seekor kucing. Jadi, kita dapat menyimpulkan bahwa Garfield adalah hewan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 4,
+    "soal": "Semua buku adalah kertas. Novel adalah sejenis buku.",
+    "pilihan": [
+      "Semua buku adalah novel.",
+      "Novel adalah kertas.",
+      "Novel adalah cerita.",
+      "Semua kertas adalah buku.",
+      "Novel adalah gambar."
+    ],
+    "jawaban": "Novel adalah kertas.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua buku adalah kertas. Selanjutnya, novel diidentifikasi sebagai sejenis buku. Jadi, kita dapat menyimpulkan bahwa novel adalah kertas, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 5,
+    "soal": "Semua planet adalah benda langit. Bumi adalah sebuah planet.",
+    "pilihan": [
+      "Semua planet adalah bumi.",
+      "Bumi adalah benda langit.",
+      "Bumi adalah datar.",
+      "Semua benda langit adalah planet.",
+      "Bumi adalah hijau."
+    ],
+    "jawaban": "Bumi adalah benda langit.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua planet adalah benda langit. Selanjutnya, bumi diidentifikasi sebagai sebuah planet. Jadi, kita dapat menyimpulkan bahwa bumi adalah benda langit, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 6,
+    "soal": "Semua guru adalah pendidik. Budi adalah seorang guru.",
+    "pilihan": [
+      "Semua guru adalah Budi.",
+      "Budi adalah pendidik.",
+      "Budi adalah murid.",
+      "Semua pendidik adalah guru.",
+      "Budi adalah orang tua."
+    ],
+    "jawaban": "Budi adalah pendidik.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua guru adalah pendidik. Selanjutnya, Budi diidentifikasi sebagai seorang guru. Jadi, kita dapat menyimpulkan bahwa Budi adalah pendidik, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 7,
+    "soal": "Semua ikan adalah hewan. Gurame adalah sejenis ikan.",
+    "pilihan": [
+      "Semua ikan adalah gurame.",
+      "Gurame adalah hewan.",
+      "Gurame adalah tumbuhan.",
+      "Semua hewan adalah ikan.",
+      "Gurame adalah besar."
+    ],
+    "jawaban": "Gurame adalah hewan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua ikan adalah hewan. Selanjutnya, gurame diidentifikasi sebagai sejenis ikan. Jadi, kita dapat menyimpulkan bahwa gurame adalah hewan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 8,
+    "soal": "Semua mobil adalah kendaraan. Avanza adalah sejenis mobil.",
+    "pilihan": [
+      "Semua mobil adalah avanza.",
+      "Avanza adalah kendaraan.",
+      "Avanza adalah sepeda.",
+      "Semua kendaraan adalah mobil.",
+      "Avanza adalah hitam."
+    ],
+    "jawaban": "Avanza adalah kendaraan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua mobil adalah kendaraan. Selanjutnya, avanza diidentifikasi sebagai sejenis mobil. Jadi, kita dapat menyimpulkan bahwa avanza adalah kendaraan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 9,
+    "soal": "Semua hujan adalah air. Embun adalah sejenis hujan.",
+    "pilihan": [
+      "Semua hujan adalah embun.",
+      "Embun adalah air.",
+      "Embun adalah es.",
+      "Semua air adalah hujan.",
+      "Embun adalah pagi."
+    ],
+    "jawaban": "Embun adalah air.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua hujan adalah air. Selanjutnya, embun diidentifikasi sebagai sejenis hujan. Jadi, kita dapat menyimpulkan bahwa embun adalah air, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 10,
+    "soal": "Semua pensil adalah alat tulis. Spidol adalah sejenis pensil.",
+    "pilihan": [
+      "Semua pensil adalah spidol.",
+      "Spidol adalah alat tulis.",
+      "Spidol adalah cat.",
+      "Semua alat tulis adalah pensil.",
+      "Spidol adalah besar."
+    ],
+    "jawaban": "Spidol adalah alat tulis.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua pensil adalah alat tulis. Selanjutnya, spidol diidentifikasi sebagai sejenis pensil. Jadi, kita dapat menyimpulkan bahwa spidol adalah alat tulis, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 11,
+    "soal": "Semua api adalah panas. Lilin adalah sumber api.",
+    "pilihan": [
+      "Semua api adalah lilin.",
+      "Lilin adalah panas.",
+      "Lilin adalah dingin.",
+      "Semua panas adalah api.",
+      "Lilin adalah cahaya."
+    ],
+    "jawaban": "Lilin adalah panas.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua api adalah panas. Selanjutnya, lilin diidentifikasi sebagai sumber api. Jadi, kita dapat menyimpulkan bahwa lilin adalah panas, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 12,
+    "soal": "Semua bintang adalah cahaya. Matahari adalah sebuah bintang.",
+    "pilihan": [
+      "Semua bintang adalah matahari.",
+      "Matahari adalah cahaya.",
+      "Matahari adalah gelap.",
+      "Semua cahaya adalah bintang.",
+      "Matahari adalah besar."
+    ],
+    "jawaban": "Matahari adalah cahaya.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua bintang adalah cahaya. Selanjutnya, matahari diidentifikasi sebagai sebuah bintang. Jadi, kita dapat menyimpulkan bahwa matahari adalah cahaya, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 13,
+    "soal": "Semua kucing adalah hewan. Anjing adalah sejenis hewan.",
+    "pilihan": [
+      "Semua kucing adalah anjing.",
+      "Anjing adalah hewan.",
+      "Anjing adalah tumbuhan.",
+      "Semua hewan adalah kucing.",
+      "Anjing adalah gonggong."
+    ],
+    "jawaban": "Anjing adalah hewan.",
+    "pembahasan": "Pernyataan dalam soal menyatakan bahwa semua kucing adalah hewan, dan bahwa anjing adalah sejenis hewan. Kita dapat menyimpulkan bahwa anjing adalah hewan berdasarkan premis-premis ini."
+  },
+  {
+    "id": 14,
+    "soal": "Semua manusia adalah makhluk hidup. Tumbuhan adalah sejenis makhluk hidup.",
+    "pilihan": [
+      "Semua manusia adalah tumbuhan.",
+      "Tumbuhan adalah makhluk hidup.",
+      "Tumbuhan adalah benda mati.",
+      "Semua makhluk hidup adalah manusia.",
+      "Tumbuhan adalah hijau."
+    ],
+    "jawaban": "Tumbuhan adalah makhluk hidup.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua manusia adalah makhluk hidup. Selanjutnya, tumbuhan diidentifikasi sebagai sejenis makhluk hidup. Jadi, kita dapat menyimpulkan bahwa tumbuhan adalah makhluk hidup, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 15,
+    "soal": "Semua burung adalah hewan bersayap. Elang adalah sejenis burung.",
+    "pilihan": [
+      "Semua burung adalah elang.",
+      "Elang adalah hewan bersayap.",
+      "Elang adalah hewan berkaki.",
+      "Semua hewan bersayap adalah burung.",
+      "Elang adalah pemangsa."
+    ],
+    "jawaban": "Elang adalah hewan bersayap.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua burung adalah hewan bersayap. Selanjutnya, elang diidentifikasi sebagai sejenis burung. Jadi, kita dapat menyimpulkan bahwa elang adalah hewan bersayap, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 16,
+    "soal": "Semua buah adalah makanan. Apel adalah sejenis buah.",
+    "pilihan": [
+      "Semua buah adalah apel.",
+      "Apel adalah makanan.",
+      "Apel adalah minuman.",
+      "Semua makanan adalah buah.",
+      "Apel adalah merah."
+    ],
+    "jawaban": "Apel adalah makanan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua buah adalah makanan. Selanjutnya, apel diidentifikasi sebagai sejenis buah. Jadi, kita dapat menyimpulkan bahwa apel adalah makanan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 17,
+    "soal": "Semua negara adalah wilayah. Indonesia adalah sebuah negara.",
+    "pilihan": [
+      "Semua negara adalah Indonesia.",
+      "Indonesia adalah wilayah.",
+      "Indonesia adalah pulau.",
+      "Semua wilayah adalah negara.",
+      "Indonesia adalah ibu kota."
+    ],
+    "jawaban": "Indonesia adalah wilayah.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua negara adalah wilayah. Selanjutnya, Indonesia diidentifikasi sebagai sebuah negara. Jadi, kita dapat menyimpulkan bahwa Indonesia adalah wilayah, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 18,
+    "soal": "Semua dokter adalah lulusan kedokteran. Rina adalah seorang dokter.",
+    "pilihan": [
+      "Semua dokter adalah Rina.",
+      "Rina adalah lulusan kedokteran.",
+      "Rina adalah mahasiswa kedokteran.",
+      "Semua lulusan kedokteran adalah dokter.",
+      "Rina adalah perawat."
+    ],
+    "jawaban": "Rina adalah lulusan kedokteran.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua dokter adalah lulusan kedokteran. Selanjutnya, Rina diidentifikasi sebagai seorang dokter. Jadi, kita dapat menyimpulkan bahwa Rina adalah lulusan kedokteran, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 19,
+    "soal": "Semua bunga adalah indah. Melati adalah sejenis bunga.",
+    "pilihan": [
+      "Semua bunga adalah melati.",
+      "Melati adalah indah.",
+      "Melati adalah jelek.",
+      "Semua indah adalah bunga.",
+      "Melati adalah putih."
+    ],
+    "jawaban": "Melati adalah indah.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua bunga adalah indah. Selanjutnya, melati diidentifikasi sebagai sejenis bunga. Jadi, kita dapat menyimpulkan bahwa melati adalah indah, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 20,
+    "soal": "Semua kucing adalah hewan. Garfield adalah seekor kucing.",
+    "pilihan": [
+      "Semua hewan adalah kucing.",
+      "Garfield adalah hewan.",
+      "Garfield adalah manusia.",
+      "Semua kucing adalah Garfield.",
+      "Garfield adalah oranye."
+    ],
+    "jawaban": "Garfield adalah hewan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua kucing adalah hewan. Selanjutnya, Garfield diidentifikasi sebagai seekor kucing. Jadi, kita dapat menyimpulkan bahwa Garfield adalah hewan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 21,
+    "soal": "Semua buku adalah kertas. Novel adalah sejenis buku.",
+    "pilihan": [
+      "Semua buku adalah novel.",
+      "Novel adalah kertas.",
+      "Novel adalah cerita.",
+      "Semua kertas adalah buku.",
+      "Novel adalah gambar."
+    ],
+    "jawaban": "Novel adalah kertas.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua buku adalah kertas. Selanjutnya, novel diidentifikasi sebagai sejenis buku. Jadi, kita dapat menyimpulkan bahwa novel adalah kertas, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 22,
+    "soal": "Semua planet adalah benda langit. Bumi adalah sebuah planet.",
+    "pilihan": [
+      "Semua planet adalah bumi.",
+      "Bumi adalah benda langit.",
+      "Bumi adalah datar.",
+      "Semua benda langit adalah planet.",
+      "Bumi adalah hijau."
+    ],
+    "jawaban": "Bumi adalah benda langit.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua planet adalah benda langit. Selanjutnya, bumi diidentifikasi sebagai sebuah planet. Jadi, kita dapat menyimpulkan bahwa bumi adalah benda langit, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 23,
+    "soal": "Semua guru adalah pendidik. Budi adalah seorang guru.",
+    "pilihan": [
+      "Semua guru adalah Budi.",
+      "Budi adalah pendidik.",
+      "Budi adalah murid.",
+      "Semua pendidik adalah guru.",
+      "Budi adalah orang tua."
+    ],
+    "jawaban": "Budi adalah pendidik.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua guru adalah pendidik. Selanjutnya, Budi diidentifikasi sebagai seorang guru. Jadi, kita dapat menyimpulkan bahwa Budi adalah pendidik, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 24,
+    "soal": "Semua ikan adalah hewan. Gurame adalah sejenis ikan.",
+    "pilihan": [
+      "Semua ikan adalah gurame.",
+      "Gurame adalah hewan.",
+      "Gurame adalah tumbuhan.",
+      "Semua hewan adalah ikan.",
+      "Gurame adalah besar."
+    ],
+    "jawaban": "Gurame adalah hewan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua ikan adalah hewan. Selanjutnya, gurame diidentifikasi sebagai sejenis ikan. Jadi, kita dapat menyimpulkan bahwa gurame adalah hewan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 25,
+    "soal": "Semua mobil adalah kendaraan. Avanza adalah sejenis mobil.",
+    "pilihan": [
+      "Semua mobil adalah avanza.",
+      "Avanza adalah kendaraan.",
+      "Avanza adalah sepeda.",
+      "Semua kendaraan adalah mobil.",
+      "Avanza adalah kendaraan bermotor."
+    ],
+    "jawaban": "Avanza adalah kendaraan.",
+    "pembahasan": "Pernyataan dalam soal menyatakan bahwa semua mobil adalah kendaraan dan bahwa Avanza adalah sejenis mobil. Dengan demikian, kita dapat menyimpulkan bahwa Avanza adalah kendaraan berdasarkan premis-premis ini."
+  },
+  {
+    "id": 26,
+    "soal": "Semua hewan berkaki empat adalah mamalia. Kucing adalah sejenis hewan berkaki empat.",
+    "pilihan": [
+      "Semua hewan berkaki empat adalah kucing.",
+      "Kucing adalah mamalia.",
+      "Kucing adalah burung.",
+      "Semua mamalia adalah hewan berkaki empat.",
+      "Kucing adalah berenang."
+    ],
+    "jawaban": "Kucing adalah mamalia.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua hewan berkaki empat adalah mamalia. Selanjutnya, kucing diidentifikasi sebagai sejenis hewan berkaki empat. Jadi, kita dapat menyimpulkan bahwa kucing adalah mamalia, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 27,
+    "soal": "Semua burung terbang. Merpati adalah sejenis burung.",
+    "pilihan": [
+      "Semua burung adalah merpati.",
+      "Merpati terbang.",
+      "Merpati adalah reptil.",
+      "Semua terbang adalah burung.",
+      "Merpati adalah biru."
+    ],
+    "jawaban": "Merpati terbang.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua burung terbang. Selanjutnya, merpati diidentifikasi sebagai sejenis burung. Jadi, kita dapat menyimpulkan bahwa merpati terbang, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 28,
+    "soal": "Semua manusia adalah makhluk sosial. John adalah seorang manusia.",
+    "pilihan": [
+      "Semua manusia adalah John.",
+      "John adalah makhluk sosial.",
+      "John adalah tumbuhan.",
+      "Semua makhluk sosial adalah manusia.",
+      "John adalah pelajar."
+    ],
+    "jawaban": "John adalah makhluk sosial.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua manusia adalah makhluk sosial. Selanjutnya, John diidentifikasi sebagai seorang manusia. Jadi, kita dapat menyimpulkan bahwa John adalah makhluk sosial, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 29,
+    "soal": "Semua tumbuhan hijau. Pohon adalah sejenis tumbuhan.",
+    "pilihan": [
+      "Semua tumbuhan adalah pohon.",
+      "Pohon adalah hijau.",
+      "Pohon adalah hewan.",
+      "Semua hijau adalah tumbuhan.",
+      "Pohon adalah besar."
+    ],
+    "jawaban": "Pohon adalah hijau.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua tumbuhan adalah hijau. Selanjutnya, pohon diidentifikasi sebagai sejenis tumbuhan. Jadi, kita dapat menyimpulkan bahwa pohon adalah hijau, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 30,
+    "soal": "Semua kendaraan bermotor memiliki mesin. Motor adalah sejenis kendaraan bermotor.",
+    "pilihan": [
+      "Semua kendaraan bermotor adalah motor.",
+      "Motor memiliki mesin.",
+      "Motor adalah sepeda.",
+      "Semua mesin adalah kendaraan bermotor.",
+      "Motor adalah kecil."
+    ],
+    "jawaban": "Motor memiliki mesin.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua kendaraan bermotor memiliki mesin. Selanjutnya, motor diidentifikasi sebagai sejenis kendaraan bermotor. Jadi, kita dapat menyimpulkan bahwa motor memiliki mesin, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 31,
+    "soal": "Semua pria adalah manusia. Tom adalah seorang pria.",
+    "pilihan": [
+      "Semua pria adalah Tom.",
+      "Tom adalah manusia.",
+      "Tom adalah tumbuhan.",
+      "Semua manusia adalah Tom.",
+      "Tom adalah tinggi."
+    ],
+    "jawaban": "Tom adalah manusia.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua pria adalah manusia. Selanjutnya, Tom diidentifikasi sebagai seorang pria. Jadi, kita dapat menyimpulkan bahwa Tom adalah manusia, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 32,
+    "soal": "Semua burung memiliki sayap. Elang adalah sejenis burung.",
+    "pilihan": [
+      "Semua burung adalah elang.",
+      "Elang memiliki sayap.",
+      "Elang adalah hewan berkaki.",
+      "Semua sayap adalah burung.",
+      "Elang adalah pemangsa."
+    ],
+    "jawaban": "Elang memiliki sayap.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua burung memiliki sayap. Selanjutnya, elang diidentifikasi sebagai sejenis burung. Jadi, kita dapat menyimpulkan bahwa elang memiliki sayap, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 33,
+    "soal": "Semua buah memiliki rasa. Apel adalah sejenis buah.",
+    "pilihan": [
+      "Semua buah adalah apel.",
+      "Apel memiliki rasa.",
+      "Apel adalah minuman.",
+      "Semua rasa adalah buah.",
+      "Apel adalah merah."
+    ],
+    "jawaban": "Apel memiliki rasa.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua buah memiliki rasa. Selanjutnya, apel diidentifikasi sebagai sejenis buah. Jadi, kita dapat menyimpulkan bahwa apel memiliki rasa, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 34,
+    "soal": "Semua negara memiliki ibu kota. Jakarta adalah sebuah negara.",
+    "pilihan": [
+      "Semua negara adalah Jakarta.",
+      "Jakarta memiliki ibu kota.",
+      "Jakarta adalah pulau.",
+      "Semua ibu kota adalah negara.",
+      "Jakarta adalah padat penduduk."
+    ],
+    "jawaban": "Jakarta memiliki ibu kota.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua negara memiliki ibu kota. Selanjutnya, Jakarta diidentifikasi sebagai sebuah negara. Jadi, kita dapat menyimpulkan bahwa Jakarta memiliki ibu kota, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 35,
+    "soal": "Semua dokter adalah lulusan kedokteran. Lisa adalah seorang dokter.",
+    "pilihan": [
+      "Semua dokter adalah Lisa.",
+      "Lisa adalah lulusan kedokteran.",
+      "Lisa adalah mahasiswa kedokteran.",
+      "Semua lulusan kedokteran adalah dokter.",
+      "Lisa adalah perawat."
+    ],
+    "jawaban": "Lisa adalah lulusan kedokteran.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua dokter adalah lulusan kedokteran. Selanjutnya, Lisa diidentifikasi sebagai seorang dokter. Jadi, kita dapat menyimpulkan bahwa Lisa adalah lulusan kedokteran, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 36,
+    "soal": "Semua bunga adalah indah. Mawar adalah sejenis bunga.",
+    "pilihan": [
+      "Semua bunga adalah mawar.",
+      "Mawar adalah indah.",
+      "Mawar adalah jelek.",
+      "Semua indah adalah bunga.",
+      "Mawar adalah harum."
+    ],
+    "jawaban": "Mawar adalah indah.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua bunga adalah indah. Selanjutnya, mawar diidentifikasi sebagai sejenis bunga. Jadi, kita dapat menyimpulkan bahwa mawar adalah indah, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 37,
+    "soal": "Semua kucing adalah hewan. Putih adalah sejenis kucing.",
+    "pilihan": [
+      "Semua hewan adalah putih.",
+      "Putih adalah hewan.",
+      "Putih adalah manusia.",
+      "Semua kucing adalah putih.",
+      "Putih adalah besar."
+    ],
+    "jawaban": "Putih adalah hewan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua kucing adalah hewan. Selanjutnya, Putih diidentifikasi sebagai sejenis kucing. Jadi, kita dapat menyimpulkan bahwa Putih adalah hewan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 38,
+    "soal": "Semua buku adalah kertas. Ensiklopedia adalah sejenis buku.",
+    "pilihan": [
+      "Semua buku adalah ensiklopedia.",
+      "Ensiklopedia adalah kertas.",
+      "Ensiklopedia adalah cerita.",
+      "Semua kertas adalah buku.",
+      "Ensiklopedia adalah gambar."
+    ],
+    "jawaban": "Ensiklopedia adalah kertas.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua buku adalah kertas. Selanjutnya, ensiklopedia diidentifikasi sebagai sejenis buku. Jadi, kita dapat menyimpulkan bahwa ensiklopedia adalah kertas, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 39,
+    "soal": "Semua planet adalah benda langit. Mars adalah sebuah planet.",
+    "pilihan": [
+      "Semua planet adalah Mars.",
+      "Mars adalah benda langit.",
+      "Mars adalah datar.",
+      "Semua benda langit adalah planet.",
+      "Mars adalah merah."
+    ],
+    "jawaban": "Mars adalah benda langit.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua planet adalah benda langit. Selanjutnya, Mars diidentifikasi sebagai sebuah planet. Jadi, kita dapat menyimpulkan bahwa Mars adalah benda langit, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 40,
+    "soal": "Semua guru adalah pendidik. Maria adalah seorang guru.",
+    "pilihan": [
+      "Semua guru adalah Maria.",
+      "Maria adalah pendidik.",
+      "Maria adalah murid.",
+      "Semua pendidik adalah guru.",
+      "Maria adalah ibu."
+    ],
+    "jawaban": "Maria adalah pendidik.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua guru adalah pendidik. Selanjutnya, Maria diidentifikasi sebagai seorang guru. Jadi, kita dapat menyimpulkan bahwa Maria adalah pendidik, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 41,
+    "soal": "Semua ikan adalah hewan. Cupang adalah sejenis ikan.",
+    "pilihan": [
+      "Semua ikan adalah cupang.",
+      "Cupang adalah hewan.",
+      "Cupang adalah tumbuhan.",
+      "Semua hewan adalah ikan.",
+      "Cupang adalah warna-warni."
+    ],
+    "jawaban": "Cupang adalah hewan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua ikan adalah hewan. Selanjutnya, Cupang diidentifikasi sebagai sejenis ikan. Jadi, kita dapat menyimpulkan bahwa Cupang adalah hewan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 42,
+    "soal": "Semua mobil adalah kendaraan. Sedan adalah sejenis mobil.",
+    "pilihan": [
+      "Semua mobil adalah sedan.",
+      "Sedan adalah kendaraan.",
+      "Sedan adalah sepeda.",
+      "Semua kendaraan adalah mobil.",
+      "Sedan adalah merah."
+    ],
+    "jawaban": "Sedan adalah kendaraan.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua mobil adalah kendaraan. Selanjutnya, Sedan diidentifikasi sebagai sejenis mobil. Jadi, kita dapat menyimpulkan bahwa Sedan adalah kendaraan, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 43,
+    "soal": "Semua hujan adalah air. Salju adalah sejenis hujan.",
+    "pilihan": [
+      "Semua hujan adalah salju.",
+      "Salju adalah air.",
+      "Salju adalah es.",
+      "Semua air adalah hujan.",
+      "Salju adalah dingin."
+    ],
+    "jawaban": "Salju adalah air.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua hujan adalah air. Selanjutnya, Salju diidentifikasi sebagai sejenis hujan. Jadi, kita dapat menyimpulkan bahwa Salju adalah air, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 44,
+    "soal": "Semua pensil adalah alat tulis. Pulpen adalah sejenis alat tulis.",
+    "pilihan": [
+      "Semua pensil adalah pulpen.",
+      "Pulpen adalah alat tulis.",
+      "Pulpen adalah cat.",
+      "Semua alat tulis adalah pensil.",
+      "Pulpen adalah biru."
+    ],
+    "jawaban": "Pulpen adalah alat tulis.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua pensil adalah alat tulis. Selanjutnya, Pulpen diidentifikasi sebagai sejenis alat tulis. Jadi, kita dapat menyimpulkan bahwa Pulpen adalah alat tulis, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 45,
+    "soal": "Semua api adalah panas. Lilin adalah sumber api.",
+    "pilihan": [
+      "Semua api adalah lilin.",
+      "Lilin adalah panas.",
+      "Lilin adalah dingin.",
+      "Semua panas adalah api.",
+      "Lilin adalah cahaya."
+    ],
+    "jawaban": "Lilin adalah panas.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua api adalah panas. Selanjutnya, lilin diidentifikasi sebagai sumber api. Jadi, kita dapat menyimpulkan bahwa lilin adalah panas, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 46,
+    "soal": "Semua orang yang minum air adalah manusia. Lisa adalah seorang manusia yang minum air.",
+    "pilihan": [
+      "Semua orang yang minum air adalah Lisa.",
+      "Lisa adalah air.",
+      "Lisa adalah tumbuhan.",
+      "Semua manusia yang minum air adalah Lisa.",
+      "Lisa adalah pelajar."
+    ],
+    "jawaban": "Lisa adalah air.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua orang yang minum air adalah manusia. Selanjutnya, Lisa diidentifikasi sebagai seorang manusia yang minum air. Jadi, kita dapat menyimpulkan bahwa Lisa adalah air, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 47,
+    "soal": "Semua sapi adalah hewan ternak. Banteng adalah sejenis sapi.",
+    "pilihan": [
+      "Semua sapi adalah banteng.",
+      "Banteng adalah hewan ternak.",
+      "Banteng adalah karnivora.",
+      "Semua hewan ternak adalah sapi.",
+      "Banteng adalah berwarna cokelat."
+    ],
+    "jawaban": "Banteng adalah hewan ternak.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua sapi adalah hewan ternak. Selanjutnya, banteng diidentifikasi sebagai sejenis sapi. Jadi, kita dapat menyimpulkan bahwa banteng adalah hewan ternak, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 48,
+    "soal": "Semua burung memiliki bulu. Kakatua adalah sejenis burung.",
+    "pilihan": [
+      "Semua burung adalah kakatua.",
+      "Kakatua memiliki bulu.",
+      "Kakatua adalah mamalia.",
+      "Semua bulu adalah burung.",
+      "Kakatua adalah pandai berbicara."
+    ],
+    "jawaban": "Kakatua memiliki bulu.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua burung memiliki bulu. Selanjutnya, kakatua diidentifikasi sebagai sejenis burung. Jadi, kita dapat menyimpulkan bahwa kakatua memiliki bulu, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 49,
+    "soal": "Semua manusia memiliki otak. Sarah adalah seorang manusia.",
+    "pilihan": [
+      "Semua manusia adalah Sarah.",
+      "Sarah memiliki otak.",
+      "Sarah adalah tumbuhan.",
+      "Semua otak adalah manusia.",
+      "Sarah adalah dokter."
+    ],
+    "jawaban": "Sarah memiliki otak.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua manusia memiliki otak. Selanjutnya, Sarah diidentifikasi sebagai seorang manusia. Jadi, kita dapat menyimpulkan bahwa Sarah memiliki otak, sesuai dengan premis-premis yang diberikan."
+  },
+  {
+    "id": 50,
+    "soal": "Semua manusia adalah makhluk hidup. Anjing adalah sejenis makhluk hidup.",
+    "pilihan": [
+      "Semua manusia adalah anjing.",
+      "Anjing adalah makhluk hidup.",
+      "Anjing adalah tumbuhan.",
+      "Semua makhluk hidup adalah manusia.",
+      "Anjing adalah berbulu."
+    ],
+    "jawaban": "Anjing adalah makhluk hidup.",
+    "pembahasan": "Pernyataan di soal menyatakan bahwa semua manusia adalah makhluk hidup. Selanjutnya, anjing diidentifikasi sebagai sejenis makhluk hidup. Jadi, kita dapat menyimpulkan bahwa anjing adalah makhluk hidup, sesuai dengan premis-premis yang diberikan."
+  }
+]

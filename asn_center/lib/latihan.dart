@@ -16,7 +16,8 @@ Future<String> loadAssetData(String path) async {
 }
 
 class Latihan extends StatefulWidget {
-  const Latihan({super.key});
+  final String app; // Tambahkan parameter konstruktor
+  const Latihan({super.key, required this.app});
 
   @override
   State<Latihan> createState() => _LatihanState();
@@ -24,7 +25,7 @@ class Latihan extends StatefulWidget {
 
 class _LatihanState extends State<Latihan> {
   List<dynamic> jsonData = [];
-
+  // print(app);
   @override
   void initState() {
     super.initState();
@@ -37,7 +38,7 @@ class _LatihanState extends State<Latihan> {
 
     jsonData = json.decode(data);
 
-    print(jsonData);
+    // print(jsonData);
 
     setState(() {
       jsonData = json.decode(data);
@@ -47,7 +48,7 @@ class _LatihanState extends State<Latihan> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tes Wawasan Kebangsaan (TWK)'),
+        title: Text(widget.app),
         // actions: <Widget>[
         //   // Ini adalah bagian pencarian dalam AppBar
         //   IconButton(
