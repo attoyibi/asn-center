@@ -1,5 +1,5 @@
-import 'package:asn_center/component/pilgan.dart';
-import 'package:asn_center/component/pilganIndexed.dart';
+import 'package:asn_center/view/pilgan.dart';
+import 'package:asn_center/view/pilganIndexed.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'dart:math';

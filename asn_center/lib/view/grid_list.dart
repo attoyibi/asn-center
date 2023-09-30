@@ -1,5 +1,5 @@
-import 'package:asn_center/component/list_latihan_soal.dart';
-import 'package:asn_center/component/pilgan.dart';
+import 'package:asn_center/view/list_latihan_soal.dart';
+import 'package:asn_center/view/pilgan.dart';
 import 'package:flutter/material.dart';
 
 class GridList extends StatelessWidget {

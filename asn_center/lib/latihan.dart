@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:asn_center/component/grid_list.dart';
+import 'package:asn_center/view/grid_list.dart';
 import 'package:asn_center/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
