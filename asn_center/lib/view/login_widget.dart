@@ -22,6 +22,33 @@ class _LoginWidgetState extends State<LoginWidget> {
     await prefs.setString('email', email);
   }
 
+  String? validateName(value) {
+    if (value == null || value.isEmpty) {
+      return 'Nama harus diisi';
+    } else if (value.length < 2 || value.length > 50) {
+      return 'Nama harus memiliki panjang antara 2 dan 50 karakter';
+    } else if (!RegExp(r'^[a-zA-Z\s]+$').hasMatch(value)) {
+      return 'Nama hanya boleh mengandung huruf dan spasi';
+    }
+    return null; // Validasi berhasil
+  }
+
+  String? validateEmail(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Email harus diisi';
+    } else if (!RegExp(r'^[\w-]+(\.[\w-]+)*@[\w-]+\.[a-zA-Z]{2,7}$')
+        .hasMatch(value)) {
+      if (!value.contains('@')) {
+        return 'Email harus mengandung karakter "@"';
+      } else if (!value.contains('.')) {
+        return 'Email harus mengandung karakter "." setelah "@"';
+      } else {
+        return 'Email tidak valid. Pastikan format email yang benar, seperti "nama@domain.com"';
+      }
+    }
+    return null; // Validasi berhasil
+  }
+
   @override
   void initState() {
     super.initState();
@@ -44,17 +71,21 @@ class _LoginWidgetState extends State<LoginWidget> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             TextFormField(
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               controller: _nameController,
               decoration: InputDecoration(
                 labelText: 'Nama',
               ),
+              validator: validateName, // Memanggil fungsi validasi
             ),
             SizedBox(height: 16.0),
             TextFormField(
+              autovalidateMode: AutovalidateMode.onUserInteraction,
               controller: _emailController,
               decoration: InputDecoration(
                 labelText: 'Email',
               ),
+              validator: validateEmail, // Memanggil fungsi validasi
             ),
             SizedBox(height: 32.0),
             ElevatedButton(
