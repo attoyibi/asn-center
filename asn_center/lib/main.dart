@@ -1,4 +1,5 @@
 import 'package:asn_center/about_us.dart';
+import 'package:asn_center/view/grid_list.dart';
 import 'package:asn_center/view/login_widget.dart';
 import 'package:asn_center/view/main_screen.dart';
 import 'package:asn_center/latihan.dart';
@@ -9,18 +10,15 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-// import 'package:firebase_core/firebase_core.dart';
-// import 'firebase_options.dart';
-// import 'latihan.dart';
-// Buat class model untuk data pengguna
-// Define the navigatorKey here
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
 //referensi : https://drive.google.com/drive/u/0/folders/1uJHI-DCXXi7ZFM1ziSdQWVF70q3uzRoT
-// Future<void> main() async {
-void main() {
-  // await Firebase.initializeApp(
-  //   options: DefaultFirebaseOptions.currentPlatform,
-  // );
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(
     MultiProvider(
       providers: [

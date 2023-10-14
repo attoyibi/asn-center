@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class LoginWidget extends StatefulWidget {
   @override
@@ -54,6 +55,30 @@ class _LoginWidgetState extends State<LoginWidget> {
     super.initState();
     // Initialize userDataProvider in initState if needed
     userDataProvider = Provider.of<UserDataProvider>(context, listen: false);
+    // Initialize userDataProvider in initState if needed
+    userDataProvider = Provider.of<UserDataProvider>(context, listen: false);
+
+    // Cek apakah ada data nama dan email yang tersimpan di SharedPreferences
+    _checkUserDataInSharedPreferences();
+  }
+
+// Metode untuk memeriksa data pengguna di SharedPreferences
+  void _checkUserDataInSharedPreferences() async {
+    final prefs = await SharedPreferences.getInstance();
+    final storedName = prefs.getString('name');
+    final storedEmail = prefs.getString('email');
+
+    if (storedName != null && storedEmail != null) {
+      // Jika data nama dan email sudah tersimpan, lanjutkan ke halaman "/home"
+      Navigator.pushReplacementNamed(
+        context,
+        '/home',
+        arguments: {
+          'name': storedName,
+          'email': storedEmail,
+        },
+      );
+    }
   }
 
   @override
@@ -100,16 +125,42 @@ class _LoginWidgetState extends State<LoginWidget> {
                 // Anda dapat melakukan validasi atau menyimpan data pengguna di sini
                 // Misalnya, Anda bisa memvalidasi apakah nama dan email valid
                 // dan kemudian melakukan navigasi ke layar berikutnya jika valid.
+                print(validateName(name) == null);
+                // Periksa apakah ada pesan validasi yang muncul
+                // Validasi form
+                String? nameValidation = validateName(name);
+                String? emailValidation = validateEmail(email);
 
-                // Navigasi ke layar berikutnya (gantilah dengan perintah navigasi sesuai kebutuhan Anda)
-                Navigator.pushReplacementNamed(
-                  context,
-                  '/home',
-                  arguments: {
-                    'name': _nameController.text,
-                    'email': _emailController.text,
-                  },
-                );
+                // Periksa apakah ada pesan validasi yang muncul
+                if (nameValidation != null || emailValidation != null) {
+                  // Salah satu atau kedua form masih kosong atau tidak valid
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text('Silakan lengkapi form yang ada.'),
+                    ),
+                  );
+                } else {
+                  // Form valid, lanjutkan dengan penyimpanan dan navigasi
+                  try {
+                    await _saveUserDataToSharedPreferences(name, email);
+                    userDataProvider.saveUserData(name, email);
+                    final result = FirebaseAuth.instance
+                        .createUserWithEmailAndPassword(
+                            email: email, password: "123456");
+
+                    Navigator.pushReplacementNamed(
+                      context,
+                      '/home',
+                      arguments: {
+                        'name': name,
+                        'email': email,
+                      },
+                    );
+                  } on Exception catch (e) {
+                    // TODO
+                    print(e);
+                  }
+                }
               },
               child: Text('Join'),
             ),

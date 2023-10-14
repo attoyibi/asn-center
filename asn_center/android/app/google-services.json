@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "205300574586",
-    "project_id": "asn-center1111",
-    "storage_bucket": "asn-center1111.appspot.com"
+    "project_number": "682484606200",
+    "project_id": "asn-center-21fa8",
+    "storage_bucket": "asn-center-21fa8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:205300574586:android:d585745e1a940bc1784ec3",
+        "mobilesdk_app_id": "1:682484606200:android:cae98d2a0d294bdd32870d",
         "android_client_info": {
-          "package_name": "com.example.asn_center"
+          "package_name": "com.tiu.cpns"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBp_MUYaCYNfQQzP4pSwpTYb3OBsfNpre8"
+          "current_key": "AIzaSyBUf05Cg-y2PYggQM9yjXSw8I5ffV49TX4"
         }
       ],
       "services": {

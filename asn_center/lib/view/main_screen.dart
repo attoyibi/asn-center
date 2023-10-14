@@ -4,6 +4,7 @@ import 'package:asn_center/viewmodel/UserDataProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({
@@ -14,7 +15,6 @@ class MainScreen extends StatefulWidget {
 
   final MaterialColor primaryColor;
   final Color onPrimary;
-
   @override
   State<MainScreen> createState() => _MainScreenState();
 }
@@ -37,8 +37,9 @@ class _MainScreenState extends State<MainScreen> {
     final args =
         ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>?;
     final userDataProvider = Provider.of<UserDataProvider>(context);
-    final name = userDataProvider.userData?.name ?? '';
-    final email = userDataProvider.userData?.email ?? '';
+    final name = userDataProvider.userData?.name ?? 'Selamat Datang';
+    final email = userDataProvider.userData?.email ??
+        'Klik daftar untuk mendapatkan fitur tambahan';
     print("$name - $email");
 
     // final name = '';
@@ -79,21 +80,21 @@ class _MainScreenState extends State<MainScreen> {
                 child: Column(
                   children: [
                     SizedBox(height: 20),
-                    Align(
-                      alignment: Alignment
-                          .centerLeft, // Mengatur teks ke awal atau sebelah kiri container
-                      child: Container(
-                          child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Container(
-                              margin: EdgeInsets.only(left: 20, right: 20),
-                              child: Text('Berita Terbaru')),
-                          SizedBox(height: 10),
-                          MyCarousel(),
-                        ],
-                      )),
-                    ),
+                    // Align(
+                    //   alignment: Alignment
+                    //       .centerLeft, // Mengatur teks ke awal atau sebelah kiri container
+                    //   child: Container(
+                    //       child: Column(
+                    //     crossAxisAlignment: CrossAxisAlignment.start,
+                    //     children: [
+                    //       Container(
+                    //           margin: EdgeInsets.only(left: 20, right: 20),
+                    //           child: Text('Berita Terbaru')),
+                    //       SizedBox(height: 10),
+                    //       MyCarousel(),
+                    //     ],
+                    //   )),
+                    // ),
                   ],
                 ),
               ),
@@ -230,6 +231,9 @@ class _MainScreenState extends State<MainScreen> {
   }
 }
 
+final Uri _url = Uri.parse(
+    'https://docs.google.com/forms/d/e/1FAIpQLSdefdEOO9zWGx2waSjVW0r21R4SHg06A43T8SklQ8bTBX-wyQ/viewform');
+
 class HomeCard extends StatelessWidget {
   const HomeCard({
     super.key,
@@ -238,6 +242,11 @@ class HomeCard extends StatelessWidget {
   });
   final String name;
   final String email;
+  Future<void> _launchUrl() async {
+    if (!await launchUrl(_url)) {
+      throw Exception('Could not launch $_url');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -258,11 +267,11 @@ class HomeCard extends StatelessWidget {
                   // Tambahkan widget-widget dalam Row di sini
                   Row(
                     children: [
-                      Image.network(
-                        'https://cdn.idntimes.com/content-images/post/20200414/cover-artikel-0ec0e8f5f3d38952e5f427c826b4f936_600x400.jpg',
-                        height: 30,
-                        width: 50,
-                      ),
+                      // Image.asset(
+                      //   '/asn_center/assets/images/logo_sinau_tech.png]',
+                      //   height: 30,
+                      //   width: 50,
+                      // ),
                       SizedBox(
                         width: 10,
                       ),
@@ -281,7 +290,12 @@ class HomeCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  ElevatedButton(onPressed: () {}, child: Text('Beli')),
+                  ElevatedButton(
+                      onPressed: () {
+                        print("buttoin");
+                        _launchUrl();
+                      },
+                      child: Text('Fitur Gratis')),
                 ],
               ),
               Divider(),
